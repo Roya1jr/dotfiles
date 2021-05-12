@@ -1,1 +1,1 @@
-fish/config.fish
+/home/prince/.config/fish/config.fish
