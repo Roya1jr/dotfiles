@@ -23,6 +23,7 @@ podman
 python3-devel
 python3-dnf-plugin-system-upgrade
 readline-devel
+rsync
 rust
 skopeo
 sqlite-devel
