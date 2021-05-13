@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugin/ ~/dotfiles/.vim/plugin/
