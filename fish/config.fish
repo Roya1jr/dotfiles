@@ -20,6 +20,4 @@ alias ls  "exa"
 
 #Custom scripts and commands
 cd
-#~/dotfiles/sync_pkgs_files.sh
-#~/dotfiles/git_add_commit.sh
 ~/dotfiles/sync_folder.sh
