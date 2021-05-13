@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
-git add . && \
-git commit . -m "updated files and packages " && \
-git push
+GIT='git --git-dir='$PWD
+
+$GIT add . && \
+$GIT commit . -m "updated files and packages " && \
+$GIT -i git push
