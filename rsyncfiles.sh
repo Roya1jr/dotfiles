@@ -1,7 +1,9 @@
-#folders
+#Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
-rsync -rW ~/.vimrc ~/dotfiles/.vimrc
+rsync -rW ~/.vim/plugin/ ~/dotfiles/.vim/plugin/
+rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/ 
 
-# files
+#Files
 rysnc  ~/.config/starship.toml ~/dotfiles/starship.toml
-
+rsync  ~/.vimrc ~/dotfiles/.vimrc
+rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
