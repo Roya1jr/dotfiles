@@ -2,8 +2,10 @@
 
 cd ~/dotfiles/
 
-git add . && \
-git commit . -m "updated files and packages " && \
-git push
-
-cd
+if git diff-index --quiet HEAD --; then
+   git add . && \
+	   git commit . -m "updated files and packages " && \
+	   git push
+else
+    cd
+fi
