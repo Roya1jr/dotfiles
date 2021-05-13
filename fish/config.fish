@@ -22,5 +22,3 @@ alias cat "bat"
 alias ls  "exa"
 
 ~/dotfiles/sync_pkgs_files.sh
-
-echo "hello"
