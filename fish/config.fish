@@ -21,5 +21,5 @@ set -g -x PATH "$HOME/bin:$PATH"
 alias cat "bat"
 alias ls  "exa"
 
-~/dotfiles/getpkgs.sh
+~/dotfiles/sync_pkgs_files.sh
 
