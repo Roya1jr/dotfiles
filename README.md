@@ -1,2 +1,3 @@
-# dotfiles
-Linux dotfiles 
+# Dotfiles
+
+My Personal Dotfiles 
