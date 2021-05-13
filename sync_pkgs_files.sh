@@ -16,3 +16,5 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 dnf repoquery --qf '%{name}' --userinstalled \
  | grep -v -- '-debuginfo$' \
  | grep -v '^\(kernel-modules\|kernel\|kernel-core\|kernel-devel\)$' > ~/dotfiles/pkgs_a.lst
+
+git add . && git commit -m "modified files and packages"
