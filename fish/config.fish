@@ -14,14 +14,12 @@ set -g -x SDKMAN_DIR "/home/prince/.sdkman"
 #Remove fish greeting
 set fish_greeting
 
-#Custome scripts
-set -g -x PATH "$HOME/bin:$PATH"
-
 #Alias
 alias cat "bat"
 alias ls  "exa"
 
+#Custom scripts and commands
+cd
 ~/dotfiles/sync_pkgs_files.sh
 ~/dotfiles/git_add_commit.sh
 
-echo "HellO"
