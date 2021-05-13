@@ -23,3 +23,4 @@ alias ls  "exa"
 
 ~/dotfiles/sync_pkgs_files.sh
 ~/dotfiles/git_add_commit.sh
+
