@@ -3,11 +3,12 @@
 cd ~/dotfiles/
 
 if git diff-index --quiet HEAD --; then
-      	cd ~
+      	cd 
 
 else
 	git add . && \
 		git commit . -m "updated files and packages " && \
-	       	git push
+	       	git push &&\
+		cd 
     
 fi
