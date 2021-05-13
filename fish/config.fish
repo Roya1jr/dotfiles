@@ -22,5 +22,4 @@ alias cat "bat"
 alias ls  "exa"
 
 ~/dotfiles/getpkgs.sh
-~/dotfiles/rsyncfiles.sh
 
