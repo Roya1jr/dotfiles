@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
-GIT='git --git-dir='$PWD
+cd ~/dotfiles/
 
-$GIT add . && \
-$GIT commit . -m "updated files and packages " && \
-$GIT -i git push
+git add . && \
+git commit . -m "updated files and packages " && \
+git -i git push
+
+cd
