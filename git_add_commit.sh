@@ -4,6 +4,6 @@ cd ~/dotfiles/
 
 git add . && \
 git commit . -m "updated files and packages " && \
-git -i git push
+git push
 
 cd
