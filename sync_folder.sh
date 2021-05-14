@@ -15,7 +15,7 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 #Get Installed packages
 dnf repoquery --qf '%{name}' --userinstalled \
  | grep -v -- '-debuginfo$' \
- | grep -v '^\(kernel-modules\|kernel\|kernel-core\|kernel-devel\)$' > ~/dotfiles/pkgs_a.lst \
+ | grep -v '^\(kernel-modules\|kernel\|kernel-core\|kernel-devel\)$' > ~/dotfiles/pkgs_a.lst 
 
 # Push files to remote 
 cd ~/dotfiles/
