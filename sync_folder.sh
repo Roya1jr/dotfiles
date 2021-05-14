@@ -20,14 +20,11 @@ dnf repoquery --qf '%{name}' --userinstalled \
 # Push files to remote 
 cd ~/dotfiles/
 
-if git diff-index --quiet HEAD --; then
-      	
-	cd ~ 
-
-else
-	git add . && \
+if [[ `git status --porcelain` ]]; then
+ 	git add . && \
 	git commit . -m "updated files and packages " && \
 	git push &&\
 	cd 
-    
+else
+  cd
 fi
