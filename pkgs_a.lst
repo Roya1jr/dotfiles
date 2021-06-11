@@ -20,6 +20,7 @@ libyaml-devel
 openssl
 openssl-devel
 podman
+podman-docker
 python3-devel
 python3-dnf-plugin-system-upgrade
 readline-devel
