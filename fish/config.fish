@@ -9,10 +9,16 @@ set -g -x PATH "$PATH:$HOME/.rvm/bin"
 starship init fish | source
 
 #SDKMAN
-set -g -x SDKMAN_DIR "/home/prince/.sdkman"
+set -g -x SDKMAN_DIR "$HOME/.sdkman"
 
 #Remove fish greeting
 set fish_greeting
+
+#Pip
+set -g -x PATH "$PATH:$HOME/.local/bin"
+
+#Raylib
+set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
 #Alias
 alias cat "bat"

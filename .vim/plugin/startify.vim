@@ -6,8 +6,10 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks=[
-			\ {'z': '~/.zshrc'},
-			\ {'b': '~/.bashrc'}
+			\ {'f': '~/.config/fish/config.fish'},
+			\ {'k': '~/.config/kitty/kitty.conf'},
+			\ {'s': '~/.vim/plugin/startify.vim'},
+			\ {'t': '~/.config/starship.toml'},
 			\]
 
 let g:webdevicons_enable_startify = 1
