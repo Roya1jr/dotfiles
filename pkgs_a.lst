@@ -28,6 +28,7 @@ fftw-libs-single
 fish
 gamemode
 gdk-pixbuf2-modules
+git-credential-libsecret
 gnome-shell-extension-gamemode
 gnome-tweaks
 google-droid-sans-mono-fonts
@@ -115,6 +116,7 @@ rpmfusion-nonfree-release
 rubberband
 rust
 rust-std-static
+seahorse
 steam
 suil
 vamp-plugin-sdk
