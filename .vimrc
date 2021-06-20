@@ -9,13 +9,13 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
 
-"One nerdtree 
+"One nerdtree
 function! ToggleNERDTree()
 	NERDTreeToggle
 	silent NERDTreeMirror
 endfunction
 
-" Plugins 
+" Plugins
 call plug#begin('~/.vim/plugged')
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -39,7 +39,7 @@ call plug#end()
 
 "Custom Commands
 let &t_ut=''
-set t_Co=256  
+set t_Co=256
 set encoding=UTF-8
 colorscheme codedark
 set number
@@ -49,4 +49,4 @@ set background=dark
 set visualbell
 set noerrorbells
 set t_vb=
-
+set clipboard=unnamedplus
