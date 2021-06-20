@@ -1,6 +1,7 @@
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'cpp': ['clang-format'],
+\   'c':['clang-format'],
 \}
 
 let g:ale_completion_autoimport = 1
