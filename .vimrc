@@ -44,7 +44,6 @@ set encoding=UTF-8
 colorscheme codedark
 set number
 set mouse=a
-source /etc/vimrc
 set background=dark
 set visualbell
 set noerrorbells
