@@ -1,20 +1,28 @@
 #!/usr/bin/bash
 
-# Resync
-
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugin/ ~/dotfiles/.vim/plugin/
-rysnc -rW ~/.vim/plugin/ ~/winhome/vimfiles/plugin/
 rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/
-rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
 
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
-rysnc  ~/.config/starship.toml ~/winhome/.config/starship.toml
 rsync  ~/.vimrc ~/dotfiles/.vimrc
-rysnc  ~/.vimrc ~/winhome/.vimrc
+
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
+
+#Windows
+DIR="~/winhome/"
+if [ -d "$DIR" ]; then
+echo "Winhome exits"
+#Files 
+rysnc  ~/.vimrc ~/winhome/.vimrc
+rysnc  ~/.config/starship.toml ~/winhome/.config/starship.toml
+
+#Folders
+rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
+rysnc -rW ~/.vim/plugin/ ~/winhome/vimfiles/plugin/
+fi
 
 #Get Installed packages
 dnf repoquery --qf '%{name}' --userinstalled \
