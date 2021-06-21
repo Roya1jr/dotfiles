@@ -13,7 +13,6 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 #Windows
 DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
-echo "Winhome exits"
 #Files 
 rsync  ~/.vimrc ~/winhome/.vimrc
 rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
