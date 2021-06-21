@@ -8,11 +8,10 @@ rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
 rsync  ~/.vimrc ~/dotfiles/.vimrc
-
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 
 #Windows
-DIR="~/winhome/"
+DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
 echo "Winhome exits"
 #Files 
