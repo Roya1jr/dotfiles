@@ -51,4 +51,3 @@ set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
 
-"Latest
