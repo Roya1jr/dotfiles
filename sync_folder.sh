@@ -15,12 +15,12 @@ DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
 echo "Winhome exits"
 #Files 
-rysnc  ~/.vimrc ~/winhome/.vimrc
-rysnc  ~/.config/starship.toml ~/winhome/.config/starship.toml
+rsync  ~/.vimrc ~/winhome/.vimrc
+rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
 
 #Folders
 rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
-rysnc -rW ~/.vim/plugin/ ~/winhome/vimfiles/plugin/
+rsync -rW ~/.vim/plugin/ ~/winhome/vimfiles/plugin/
 fi
 
 #Get Installed packages
