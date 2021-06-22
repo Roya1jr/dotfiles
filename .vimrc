@@ -4,6 +4,7 @@ endif
 
 if has('win32')
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/vimfiles'
+let g:python3_host_prog = 'python'
 endif 
 
 if empty(glob(data_dir . '/autoload/plug.vim'))
