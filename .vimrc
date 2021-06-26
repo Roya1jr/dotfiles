@@ -52,6 +52,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'jbgutierrez/vim-better-comments'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
+Plug 'justinmk/vim-sneak'
 call plug#end()
 
 "Custom Commands
