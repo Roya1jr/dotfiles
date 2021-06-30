@@ -34,6 +34,7 @@ gnome-tweaks
 google-droid-sans-mono-fonts
 google-noto-sans-fonts
 gparted
+gperftools-libs
 gstreamer1-plugin-openh264
 gtk2
 gtk3
@@ -41,7 +42,9 @@ gtkmm24
 inih
 initscripts
 joplin
+jpegxl-libs
 json-glib
+jxl-pixbuf-loader
 kernel-modules-extra
 kitty
 ladspa
@@ -110,6 +113,12 @@ python3-pyrsistent
 python3-pyyaml
 python3-texttable
 python3-websocket-client
+qt5-qtlocation
+qt5-qtsensors
+qt5-qtwebchannel
+qt5-qtwebengine
+qt5-qtwebkit
+re2
 rest
 rpmfusion-free-release
 rpmfusion-nonfree-release
@@ -117,6 +126,7 @@ rubberband
 rust
 rust-std-static
 seahorse
+signon-ui
 sox
 steam
 suil
