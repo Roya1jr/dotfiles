@@ -17,7 +17,7 @@ if has('win32')
 let g:startify_bookmarks=[
 			\ {'v': '~/.vimrc'},
 			\ {'p': '~/OneDrive/Documents/Powershell/Microsoft.PowerShell_profile.ps1'},
-			\ {'s': '~/.vimfiles/plugset/startify.vim'},
+			\ {'s': '~/vimfiles/plugset/startify.vim'},
 			\ {'t': '~/.config/starship.toml'},
 			\]
 endif
