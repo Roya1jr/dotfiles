@@ -18,6 +18,9 @@ let g:ale_fixers = {
 \   'rs' : ['cargo'],
 \}
 
+let g:ale_linter_aliases = {'svelte': ['css', 'javascript']}
+let g:ale_linters = {'svelte': ['stylelint', 'eslint']}
+
 let g:ale_completion_autoimport = 1
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '❌'
