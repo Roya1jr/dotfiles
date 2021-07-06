@@ -8,7 +8,7 @@ rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
 rsync  ~/.vimrc ~/dotfiles/.vimrc
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
-
+rsync  ~/.config/tidy ~/dotfiles/tidy
 #Windows
 DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
