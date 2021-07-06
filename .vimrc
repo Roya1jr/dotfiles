@@ -56,15 +56,15 @@ Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " Source setting
-if has('win32'){
+if has('win32')
 for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
     exe 'source' f
 endfor
-}else{
+else
 for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
     exe 'source' f
 endfor
-}
+endif
 
 
 "Custom Commands
