@@ -58,6 +58,7 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-emmet.vim'
 Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 " Source setting
