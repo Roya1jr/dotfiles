@@ -57,13 +57,14 @@ call plug#end()
 
 " Source setting
 if has('win32')
-for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
-    exe 'source' f
-endfor
+	for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
+    		exe 'source' f
+	endfor
 else
-for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
-    exe 'source' f
-endfor
+	for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
+ 	   exe 'source' f
+	endfor
+
 endif
 
 
