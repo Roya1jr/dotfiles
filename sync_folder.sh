@@ -2,8 +2,7 @@
 
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
-rsync -rW ~/.vim/plugin/ ~/dotfiles/.vim/plugin/
-rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/
+rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
 
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
@@ -13,7 +12,7 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 #Windows
 DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
-#Files 
+#Files
 rsync  ~/.vimrc ~/winhome/.vimrc
 rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
 
