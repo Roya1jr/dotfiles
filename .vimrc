@@ -33,7 +33,7 @@ function! ToggleNERDTree()
 endfunction
 
 " Plugins
-call plug#begin('~/.vim/plugins')
+call plug#begin(data_dir.'/plugins')
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -56,17 +56,9 @@ Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " Source setting
-if has('win32')
-	for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
-    		exe 'source' f
-	endfor
-else
-	for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
- 	   exe 'source' f
-	endfor
-
-endif
-
+for f in glob(data_dir.'/plugset/*.vim', 0, 1)
+  execute 'source' f
+endfor
 
 "Custom Commands
 let &t_ut=''
