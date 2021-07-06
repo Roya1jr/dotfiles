@@ -54,6 +54,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
 Plug 'justinmk/vim-sneak'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+"Plug 'ervandew/supertab'
+"Plug 'mattn/emmet-vim'
+Plug 'leafOfTree/vim-imagine'
 call plug#end()
 
 " Source setting
