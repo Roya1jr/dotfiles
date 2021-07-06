@@ -21,7 +21,10 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
 #Rust
-set -g -x PATH "$PATH:/home/prince/.cargo/bin"
+set -g -x PATH "$PATH:$HOME/.cargo/bin"
+
+#Deno
+set -g -x PATH "$PATH:$HOME/.deno/bin"
 
 #Alias
 alias cat "bat"
