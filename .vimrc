@@ -33,7 +33,7 @@ function! ToggleNERDTree()
 endfunction
 
 " Plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugins')
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -55,6 +55,11 @@ Plug 'dense-analysis/ale'
 Plug 'justinmk/vim-sneak'
 call plug#end()
 
+" Source setting 
+for f in split(glob('~/.vim/plugset/*.vim'), '\n')
+    exe 'source' f
+endfor
+
 "Custom Commands
 let &t_ut=''
 set t_Co=256
@@ -67,4 +72,3 @@ set visualbell
 set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
-source '~/.vim/plugset/'
