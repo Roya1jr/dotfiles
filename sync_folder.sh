@@ -18,7 +18,7 @@ rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
 
 #Folders
 rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
-rsync -rW ~/.vim/plugin/ ~/winhome/vimfiles/plugin/
+rsync -rW ~/.vim/plugset/ ~/winhome/vimfiles/plugset/
 fi
 
 #Get Installed packages

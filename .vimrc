@@ -1,11 +1,11 @@
 if has('unix')
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
-endif 
+endif
 
 if has('win32')
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/vimfiles'
 let g:python3_host_prog = 'python'
-endif 
+endif
 
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -55,10 +55,17 @@ Plug 'dense-analysis/ale'
 Plug 'justinmk/vim-sneak'
 call plug#end()
 
-" Source setting 
-for f in split(glob('~/.vim/plugset/*.vim'), '\n')
+" Source setting
+if has(win32){
+for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
     exe 'source' f
 endfor
+}else{
+for f in split(glob('~/.vimfiles/plugset/*.vim'), '\n')
+    exe 'source' f
+endfor
+}
+
 
 "Custom Commands
 let &t_ut=''
