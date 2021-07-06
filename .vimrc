@@ -53,9 +53,12 @@ Plug 'jbgutierrez/vim-better-comments'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
 Plug 'justinmk/vim-sneak'
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
-"Plug 'ervandew/supertab'
 Plug 'mattn/emmet-vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-emmet.vim'
+Plug 'andreypopp/asyncomplete-ale.vim'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 call plug#end()
 
 " Source setting

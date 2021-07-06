@@ -6,7 +6,7 @@ let g:ale_fixers = {
 \   'ts': ['deno','tsserver','prettier'],
 \   'v' : ['v'],
 \   'sass' : ['stylelint','prettier'],
-\   'svelte' : ['vim-svelte'],
+\   'svelte' : ['vim-svelte','vim-prettier'],
 \   'fish' : ['fish_indent'],
 \   'exs' : ['credo'],
 \   'Dockerfile' : ['hadolint'],
