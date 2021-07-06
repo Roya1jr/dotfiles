@@ -55,8 +55,7 @@ Plug 'dense-analysis/ale'
 Plug 'justinmk/vim-sneak'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 "Plug 'ervandew/supertab'
-"Plug 'mattn/emmet-vim'
-Plug 'leafOfTree/vim-imagine'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Source setting
