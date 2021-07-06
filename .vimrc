@@ -67,4 +67,4 @@ set visualbell
 set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
-source $data_dir/plugset
+source '~/.vim/plugset/'
