@@ -20,6 +20,9 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
+#Rust
+set -g -x PATH "$PATH:/home/prince/.cargo/bin"
+
 #Alias
 alias cat "bat"
 alias ls  "exa"
