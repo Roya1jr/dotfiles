@@ -3,7 +3,7 @@ let g:ale_fixers = {
 \   'cpp': ['clang-format'],
 \   'c': ['clang-format'],
 \   'html': ['htmlhint','prettier'],
-\   'svelte': ['svelteserver','prettier'],
+\   'svelte': ['prettier'],
 \   'ts': ['deno','tsserver','prettier'],
 \   'v' : ['v'],
 \   'sass' : ['stylelint','prettier'],
