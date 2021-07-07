@@ -32,7 +32,7 @@ set -g -x HTML_TIDY "$HOME/.config/tidy"
 #Alias
 alias cat "bat"
 alias ls  "exa"
-
+alias bns "play -n synth brownnoise synth pinknoise mix synth sine amod 0.1 10"
 #Custom scripts and commands
 cd
 ~/dotfiles/sync_folder.sh
