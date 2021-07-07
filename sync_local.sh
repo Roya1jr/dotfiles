@@ -8,14 +8,10 @@ git pull
 
 #Folders
 rsync -rW ~/dotfiles/omf/ ~/.config/omf/
-rsync -rW ~/dotfiles/.vim/plugin/ ~/.vim/plugin/
-rsync -rW ~/dotfiles/.vim/autoload/ ~/.vim/autoload/
+rsync -rW ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
 
 #Files
 rsync ~/dotfiles/starship.toml ~/.config/starship.toml
-rsync ~/dotfiles/.vimrc  ~/.vimrc 
-rsync ~/dotfiles/fish/config.fish ~/.config/fish/config.fish 
-
-
-
-
+rsync ~/dotfiles/.vimrc  ~/.vimrc
+rsync ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
+rsync ~/dotfiles/tidy ~/.config/tidy
