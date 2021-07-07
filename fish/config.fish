@@ -20,6 +20,15 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
+#Rust
+set -g -x PATH "$PATH:$HOME/.cargo/bin"
+
+#Deno
+set -g -x PATH "$PATH:$HOME/.deno/bin"
+
+#Tidy
+set -g -x HTML_TIDY "$HOME/.config/tidy"
+
 #Alias
 alias cat "bat"
 alias ls  "exa"
