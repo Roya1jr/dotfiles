@@ -23,6 +23,7 @@ podman
 podman-docker
 python3-devel
 python3-dnf-plugin-system-upgrade
+python3-dnf-plugin-versionlock
 readline-devel
 rsync
 rust
