@@ -166,7 +166,6 @@ qt5-qtwebengine
 qt5-qtwebkit
 re2
 rest
-rofi
 rpmfusion-free-release
 rpmfusion-nonfree-release
 rubberband
@@ -180,6 +179,7 @@ sssd-nfs-idmap
 suil
 swtpm
 totem-video-thumbnailer
+ulauncher
 vamp-plugin-sdk
 vim-common
 vim-enhanced
@@ -207,3 +207,4 @@ wine-times-new-roman-fonts
 wine-twain
 wine-webdings-fonts
 wine-wingdings-fonts
+wmctrl
