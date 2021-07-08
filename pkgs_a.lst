@@ -18,6 +18,7 @@ clang
 clang-tools-extra
 cmake
 colord-libs
+copyq
 dconf
 distribution-gpg-keys
 docker-compose
@@ -33,8 +34,10 @@ gamemode
 gdk-pixbuf2-modules
 git-credential-libsecret
 glibc-headers-x86
+gnome-dictionary
 gnome-shell-extension-gamemode
 gnome-tweaks
+goldendict
 google-droid-sans-mono-fonts
 google-noto-sans-fonts
 gparted
@@ -181,6 +184,7 @@ sssd-nfs-idmap
 suil
 swtpm
 totem-video-thumbnailer
+units
 vamp-plugin-sdk
 vim-common
 vim-enhanced
