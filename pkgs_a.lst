@@ -1,4 +1,3 @@
-albert
 alsa-lib-devel
 anaconda
 anaconda-install-env-deps
@@ -180,6 +179,7 @@ sssd-nfs-idmap
 suil
 swtpm
 totem-video-thumbnailer
+ulauncher
 vamp-plugin-sdk
 vim-common
 vim-enhanced
@@ -207,3 +207,4 @@ wine-times-new-roman-fonts
 wine-twain
 wine-webdings-fonts
 wine-wingdings-fonts
+wmctrl
