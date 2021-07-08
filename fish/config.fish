@@ -29,6 +29,9 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
 
+#User
+set -g -x PATH "$PATH:$HOME/usr/bin"
+
 #Alias
 alias cat "bat"
 alias ls  "exa"
