@@ -188,10 +188,12 @@ units
 vamp-plugin-sdk
 vim-common
 vim-enhanced
+wine
 wine-alsa
 wine-arial-fonts
 wine-capi
 wine-cms
+wine-common
 wine-core
 wine-courier-fonts
 wine-desktop
