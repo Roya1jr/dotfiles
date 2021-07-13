@@ -17,7 +17,6 @@ glibc-langpack-en
 libffi-devel
 libtool
 libyaml-devel
-neovim
 openssl
 openssl-devel
 podman
