@@ -29,6 +29,10 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
 
+#Universals
+set -U XDG_CACHE_HOME ~/.cache
+set -U XDG_CONFIG_HOME ~/.config
+set -U XDG_DATA_HOME ~/.local/share
 
 #Alias
 alias cat "bat"
