@@ -18,6 +18,7 @@ hping3
 libffi-devel
 libtool
 libyaml-devel
+neovim
 openssl
 openssl-devel
 podman
