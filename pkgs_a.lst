@@ -19,6 +19,7 @@ libffi-devel
 libtool
 libyaml-devel
 lua
+lua-devel
 luarocks
 openssl
 openssl-devel
