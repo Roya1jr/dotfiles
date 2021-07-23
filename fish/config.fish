@@ -41,3 +41,4 @@ alias bns "play -n synth brownnoise synth pinknoise mix synth sine amod 0.1 10"
 #Custom scripts and commands
 cd
 ~/dotfiles/sync_folder.sh
+starship init fish | source
