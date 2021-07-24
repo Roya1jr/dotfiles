@@ -2,12 +2,12 @@
 
 MYPWD=`pwd`
 WINHOME="/mnt/c/Users/Roya1"
-GOHOME=`cd`
+GOHOME=`cd $HOME`
 
 echo $MYPWD
 echo $WINHOME
 if [ "$MYPWD" = "$WINHOME" ]; then
-$GOHOME
+      $GOHOME
 fi
 
 
