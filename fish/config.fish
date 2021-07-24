@@ -11,6 +11,10 @@ starship init fish | source
 #SDKMAN
 set -g -x SDKMAN_DIR "$HOME/.sdkman"
 
+#Deno
+set -g -x DENO_INSTALL "$HOME/.deno"
+set -g -x PATH "$PATH:DENO_INSTALL/bin:$PATH"
+
 #Remove fish greeting
 set fish_greeting
 

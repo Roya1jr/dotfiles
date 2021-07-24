@@ -62,14 +62,14 @@ format = "[$symbol$environment](dimmed green) "
 format = "via [ $version](bold blue) "
 
 [deno]
-format = "via [🦕 $version](white bold) "
+format = "via [🦕 $version](bold green) "
 detect_extensions = ["js", "jsx", "ts", "tsx"]
 
 [docker_context]
 format = "via [ $context](blue bold)"
 
 [elixir]
-format = "via [ $version](bold green) "
+format = "via [ $version](bold purple) "
 
 [git_branch]
 symbol = " "
