@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
-pwd=$(pwd)
+mypwd=`pwd`
+echo $mypwd
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
@@ -33,6 +34,5 @@ cd ~/dotfiles/
 if [[ `git status --porcelain` ]]; then
  	git add . && \
 	git commit . -m "updated files and packages " && \
-	git push && \
-	cd pwd
+	git push
 fi
