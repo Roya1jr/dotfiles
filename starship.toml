@@ -63,6 +63,7 @@ format = "via [ $version](bold blue) "
 
 [deno]
 format = "via [🦕 $version](white bold) "
+detect_extensions = ["js", "jsx", "ts", "tsx"]
 
 [docker_context]
 format = "via [ $context](blue bold)"
@@ -118,7 +119,8 @@ truncation_symbol = ""
 
 [nodejs]
 format = "via [ $version](bold green) "
-detect_extensions = false
+detect_extensions = []
+detect_files = ["yarn.lock","package.json"]
 
 [package]
 format = "via [ $version](208 bold) "
