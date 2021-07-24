@@ -82,6 +82,7 @@ libldac
 liblo
 liblrdf
 libltc
+libmanette
 libmbim
 libmbim-utils
 libnsl
@@ -127,9 +128,11 @@ python3-docopt
 python3-dotenv
 python3-dotenv+cli
 python3-jsonschema
+python3-packaging
 python3-paramiko
 python3-pyasn1
 python3-pynacl
+python3-pyparsing
 python3-pyrsistent
 python3-pyyaml
 python3-texttable
