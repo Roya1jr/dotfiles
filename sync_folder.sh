@@ -6,7 +6,7 @@ GOHOME=`cd $HOME`
 
 echo $MYPWD
 echo $WINHOME
-if [ "$MYPWD" = "$WINHOME" ]; then
+if [ "$MYPWD" == "$WINHOME" ]; then
       $GOHOME
 fi
 
