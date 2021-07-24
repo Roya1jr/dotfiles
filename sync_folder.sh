@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 MYHOME="/mnt/c/Users/Roya1"
-echo $PWD
-if [ "$PWD" = "$MYHOME" ]; then
+CURRENTDIR=$PWD
+if [ "$CURRENTDIR" = "$MYHOME" ]; then
        	cd $HOME;
 fi
 
