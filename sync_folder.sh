@@ -32,6 +32,5 @@ cd ~/dotfiles/
 if [[ `git status --porcelain` ]]; then
  	git add . && \
 	git commit . -m "updated files and packages " && \
-	git push &&\
-	cd
+	git push
 fi
