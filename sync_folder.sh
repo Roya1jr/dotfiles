@@ -1,12 +1,12 @@
 #!/usr/bin/bash
 
 MYPWD=`pwd`
-WINHOME="/mnt/c/Users/Roya1"
+WINHOME='/mnt/c/Users/Roya1'
 GOHOME=`cd $HOME`
 
 echo $MYPWD
 echo $WINHOME
-if [ "$MYPWD" == "$WINHOME" ]; then
+if [ "$MYPWD" == $WIN_HOME ]; then
       $GOHOME
 fi
 
