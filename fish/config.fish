@@ -1,3 +1,7 @@
+if test $PWD -eq "/mnt/c/Users/Roya1"
+  cd
+end
+
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
 set -g -x PATH "$VOLTA_HOME/bin:$PATH"
