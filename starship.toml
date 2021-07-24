@@ -61,6 +61,9 @@ format = "[$symbol$environment](dimmed green) "
 [dart]
 format = "via [ $version](bold blue) "
 
+[deno]
+format = "via [🦕 $version](white bold) "
+
 [docker_context]
 format = "via [ $context](blue bold)"
 
@@ -95,9 +98,6 @@ deleted = "  "
 [golang]
 format = "via [  $version](bold cyan) "
 
-[custom.haskell]
-symbol =" "
-files =["hs"]
 
 [java]
 symbol = " "
