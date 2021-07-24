@@ -88,9 +88,9 @@ conflicted = "ﬔ "
 ahead = "壟"
 behind = "鹿"
 diverged = ""
-untracked = " ‍"
+untracked = " ﰡ ‍ "
 stashed = "   "
-modified = "  "
+modified = "  "
 staged = '[++\($count\)](green)'
 renamed = " 凜 "
 deleted = "  "
@@ -118,6 +118,7 @@ truncation_symbol = ""
 
 [nodejs]
 format = "via [ $version](bold green) "
+detect_extensions = false
 
 [package]
 format = "via [ $version](208 bold) "
@@ -128,7 +129,6 @@ pyenv_version_name = true
 
 [rust]
 format = "via [ $version](red bold)"
-
 
 [singularity]
 format = '[ \[$env\]]($style) '
