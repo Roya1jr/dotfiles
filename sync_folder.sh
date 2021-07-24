@@ -1,11 +1,4 @@
 #!/usr/bin/bash
-
-MYHOME="/mnt/c/Users/Roya1"
-CURRENTDIR=$PWD
-if [ "$CURRENTDIR" = "$MYHOME" ]; then
-       	cd $HOME;
-fi
-
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
