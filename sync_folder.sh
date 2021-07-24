@@ -1,13 +1,9 @@
 #!/usr/bin/bash
 
-MYPWD=`pwd`
-
-echo $MYPWD
-echo $WIN_HOME
-if [ "$MYPWD" = $WIN_HOME ]; then
-      cd ~
+MYHOME="/mnt/c/Users/Roya1"
+if [ "$PWD" = "$MYHOME" ]; then
+       	cd ~ ;
 fi
-
 
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
