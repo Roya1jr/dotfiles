@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 
 MYHOME="/mnt/c/Users/Roya1"
+echo $PWD
 if [ "$PWD" = "$MYHOME" ]; then
-       	cd ~ ;
+       	cd $HOME;
 fi
 
 #Folders
