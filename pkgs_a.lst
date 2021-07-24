@@ -33,6 +33,7 @@ rsync
 rust
 skopeo
 sqlite-devel
+stack
 telnet
 tidy
 vim-enhanced
