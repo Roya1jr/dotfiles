@@ -1,5 +1,5 @@
-if [ "$PWD" = "WIN_HOME" ]
-        cd
+if [ "$PWD" = "/mnt/c/Users/Roya1" ]
+        cd ~
 end
 
 
