@@ -95,6 +95,9 @@ deleted = "  "
 [golang]
 format = "via [  $version](bold cyan) "
 
+[haskell]
+symbol =" "
+
 [java]
 symbol = " "
 
