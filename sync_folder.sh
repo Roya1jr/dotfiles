@@ -1,4 +1,10 @@
 #!/usr/bin/bash
+
+if [ "$PWD" = '/mnt/c/Users/Roya1' ]
+then
+    cd
+fi
+
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
