@@ -3,6 +3,7 @@
 MYPWD=`pwd`
 WINHOME="/mnt/c/Users/Roya1"
 echo $MYPWD
+echo $WINHOME
 if [ "$MYPWD" = "$WINHOME" ]; then
     cd
 fi
