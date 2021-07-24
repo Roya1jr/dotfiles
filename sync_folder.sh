@@ -1,7 +1,13 @@
 #!/usr/bin/bash
 
-mypwd=`pwd`
-echo $mypwd
+MYPWD=`pwd`
+WINHOME="/mnt/c/Users/Roya1"
+
+if [ "$MYPWD" = "$WINHOME" ]; then
+    cd
+fi
+
+
 #Folders
 rsync -rW  ~/.config/omf/ ~/dotfiles/omf/
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
