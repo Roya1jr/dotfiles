@@ -1,6 +1,7 @@
-if status is-interactive
-    cd $HOME
+if [ "$PWD" = "WIN_HOME" ]
+        cd
 end
+
 
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
