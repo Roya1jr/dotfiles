@@ -2,9 +2,9 @@
 add_newline = true
 
 [battery]
-full_symbol = "🔋"
-charging_symbol = "🔌 "
-discharging_symbol = "💀"
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
 
 [cmd_duration]
 min_time = 500
@@ -16,13 +16,13 @@ truncation_symbol = "…/"
 
 [status]
 style = "bg:red"
-symbol = "⚠️"
+symbol = " "
 format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
 disabled = false
 
 [shell]
-fish_indicator = " " 
+fish_indicator = " "
 powershell_indicator = " "
 unknown_indicator = "mystery shell"
 disabled = false
@@ -128,7 +128,3 @@ format = "via [ $version](red bold)"
 
 [singularity]
 format = '[ \[$env\]]($style) '
-
-
-
-
