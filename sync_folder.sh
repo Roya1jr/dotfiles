@@ -2,11 +2,12 @@
 
 MYPWD=`pwd`
 WINHOME="/mnt/c/Users/Roya1"
+GOHOME=`cd`
+
 echo $MYPWD
 echo $WINHOME
 if [ "$MYPWD" = "$WINHOME" ]; then
-       echo "inside function"
-	cd $HOME
+$GOHOME
 fi
 
 
