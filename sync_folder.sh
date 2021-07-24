@@ -34,6 +34,4 @@ if [[ `git status --porcelain` ]]; then
 	git commit . -m "updated files and packages " && \
 	git push &&\
 	cd
-else
-  cd
 fi
