@@ -111,6 +111,7 @@ mdevctl
 mesa-libGL-devel
 mpv
 mpv-libs
+ncurses-devel
 nettle
 nspr
 nss
