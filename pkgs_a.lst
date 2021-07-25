@@ -37,6 +37,7 @@ git-credential-libsecret
 glibc-headers-x86
 gnome-dictionary
 gnome-shell-extension-gamemode
+gnome-tour
 gnome-tweaks
 goldendict
 google-droid-sans-mono-fonts
@@ -82,6 +83,7 @@ libdrm
 libdrm-devel
 libepoxy
 libgusb
+libidn2
 libldac
 liblo
 liblrdf
@@ -104,6 +106,7 @@ libvdpau
 libxcrypt-compat
 libxkbcommon
 llvm11-libs
+mdevctl
 mesa-libGL-devel
 mpv
 mpv-libs
