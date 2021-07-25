@@ -81,6 +81,7 @@ libdbusmenu
 libdbusmenu-gtk3
 libdrm
 libdrm-devel
+libedit
 libepoxy
 libgusb
 libidn2
@@ -201,7 +202,6 @@ units
 vamp-plugin-sdk
 vim-common
 vim-enhanced
-wine
 wine-alsa
 wine-arial-fonts
 wine-capi
@@ -210,6 +210,7 @@ wine-common
 wine-core
 wine-courier-fonts
 wine-desktop
+wine-filesystem
 wine-fixedsys-fonts
 wine-fonts
 wine-ldap
