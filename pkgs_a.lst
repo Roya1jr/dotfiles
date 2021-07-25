@@ -30,6 +30,7 @@ fdk-aac-free
 fedora-workstation-repositories
 fftw-libs-single
 fish
+fontconfig
 gamemode
 gdk-pixbuf2-modules
 git-credential-libsecret
@@ -47,6 +48,7 @@ gstreamer1
 gstreamer1-plugin-openh264
 gstreamer1-plugins-base
 gstreamer1-plugins-good
+gstreamer1-plugins-good-gtk
 gstreamer1-plugins-good-qt
 gtk2
 gtk3
@@ -76,6 +78,8 @@ libcerf-devel
 libcloudproviders
 libdbusmenu
 libdbusmenu-gtk3
+libdrm
+libdrm-devel
 libepoxy
 libgusb
 libldac
@@ -90,6 +94,7 @@ libpcap
 libpng12
 libqmi
 libqmi-utils
+libreoffice-gtk3
 libsbc
 libsodium
 libsss_autofs
@@ -111,6 +116,7 @@ nss-sysinit
 nss-util
 okular
 openssl
+pango
 pipewire
 pipewire-alsa
 pipewire-libs
