@@ -14,7 +14,7 @@ set -g -x SDKMAN_DIR "$HOME/.sdkman"
 #Remove fish greeting
 set fish_greeting
 
-#Pip
+#Local Packages
 set -g -x PATH "$PATH:$HOME/.local/bin"
 
 #Raylib

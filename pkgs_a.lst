@@ -17,6 +17,7 @@ chkconfig
 clang
 clang-tools-extra
 cmake
+code
 colord-libs
 copyq
 dconf
