@@ -2,6 +2,8 @@ if [ "$PWD" = "/mnt/c/Users/Roya1" ]
         cd ~
 end
 
+#Kubectl
+set -g -x PATH "$PATH:/usr/bin/kubectl"
 
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
