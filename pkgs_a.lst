@@ -15,6 +15,7 @@ fish
 generic-release
 glibc-langpack-en
 hping3
+kubectl
 libffi-devel
 libtool
 libyaml-devel
