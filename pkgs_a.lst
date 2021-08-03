@@ -9,7 +9,6 @@ containers-common
 cracklib-dicts
 distribution-gpg-keys
 docker-compose
-elixir
 exa
 fish
 generic-release
