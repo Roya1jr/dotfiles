@@ -15,9 +15,11 @@ exa
 fish
 generic-release
 glibc-langpack-en
+gnome-keyring
 hping3
 kubectl
 libffi-devel
+libicu
 libtool
 libyaml-devel
 lua
@@ -41,4 +43,5 @@ tidy
 vim-enhanced
 wget
 wslu
+xdpyinfo
 zlib-devel
