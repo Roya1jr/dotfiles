@@ -6,6 +6,7 @@ bison
 buildah
 cargo
 clang
+clang-tools-extra
 containers-common
 cracklib-dicts
 distribution-gpg-keys
