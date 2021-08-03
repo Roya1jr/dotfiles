@@ -5,6 +5,7 @@ bat
 bison
 buildah
 cargo
+clang
 containers-common
 cracklib-dicts
 distribution-gpg-keys
