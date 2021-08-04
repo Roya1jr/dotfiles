@@ -52,3 +52,4 @@ alias bns "play -n synth brownnoise synth pinknoise mix synth sine amod 0.1 10"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 starship init fish | source
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH # ghcup-env
