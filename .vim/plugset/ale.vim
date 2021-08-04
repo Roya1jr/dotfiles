@@ -6,7 +6,7 @@ let g:ale_fixers = {
 \   'exs' : ['credo'],
 \   'fish' : ['fish_indent'],
 \   'html': ['tidy'],
-\   'haskell': ['hlint'],
+\   'haskell': ['hlint','hindent'],
 \   'json' : ['fixjson','prettier'],
 \   'lua' : ['luacheck'],
 \   'md' : ['proselint'],
