@@ -21,6 +21,7 @@ code
 colord-libs
 copyq
 dconf
+device-mapper-multipath
 distribution-gpg-keys
 docker-compose
 dracut-live
@@ -58,7 +59,6 @@ gtkmm24
 inih
 initscripts
 joplin
-jpegxl-libs
 json-glib
 jxl-pixbuf-loader
 kernel-modules-extra
@@ -80,12 +80,14 @@ libcerf-devel
 libcloudproviders
 libdbusmenu
 libdbusmenu-gtk3
+libdecor
 libdrm
 libdrm-devel
 libedit
 libepoxy
 libgusb
 libidn2
+libjxl
 libldac
 liblo
 liblrdf
@@ -120,6 +122,7 @@ nss-softokn
 nss-softokn-freebl
 nss-sysinit
 nss-util
+ntfs-3g-libs
 okular
 openssl
 pango
@@ -127,6 +130,7 @@ pipewire
 pipewire-alsa
 pipewire-libs
 podman-docker
+podman-gvproxy
 python3-attrs
 python3-bcrypt
 python3-cached_property
@@ -147,6 +151,7 @@ python3-pynacl
 python3-pyparsing
 python3-pyrsistent
 python3-pyyaml
+python3-simpleaudio
 python3-texttable
 python3-websocket-client
 qemu-audio-alsa
