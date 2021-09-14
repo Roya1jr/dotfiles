@@ -1,5 +1,5 @@
 if [ "$PWD" = "/mnt/c/Users/Roya1" ]
-        cd ~
+     cd ~
 end
 
 #Kubectl
