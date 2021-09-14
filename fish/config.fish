@@ -49,7 +49,6 @@ set -U XDG_DATA_HOME ~/.local/share
 alias cat  "bat"
 alias ls   "exa"
 alias bns  "play -n synth brownnoise synth pinknoise mix synth sine amod 0.1 10"
-alias code "\"/mnt/c/Program Files\Microsoft VS Code/bin/code"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 starship init fish | source
