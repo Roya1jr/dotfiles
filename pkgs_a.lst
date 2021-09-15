@@ -3,6 +3,7 @@ bash-completion
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
+exa
 fedora-repos-modular
 fish
 generic-release
