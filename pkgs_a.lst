@@ -1,5 +1,6 @@
 audit
 bash-completion
+bat
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
