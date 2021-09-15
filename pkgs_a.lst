@@ -13,6 +13,7 @@ glx-utils
 mesa-dri-drivers
 mesa-libGL
 openssl
+podman
 python3-devel
 python3-dnf-plugin-versionlock
 rsync
