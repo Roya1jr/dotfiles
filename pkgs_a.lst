@@ -19,6 +19,7 @@ python3-devel
 python3-dnf-plugin-versionlock
 rsync
 setup
+shadow-utils
 vim-enhanced
 wget
 wslu
