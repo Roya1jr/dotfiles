@@ -4,6 +4,7 @@ bat
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
+docker-compose
 exa
 fedora-repos-modular
 fish
@@ -15,6 +16,7 @@ mesa-dri-drivers
 mesa-libGL
 openssl
 podman
+podman-docker
 python3-devel
 python3-dnf-plugin-versionlock
 rsync
