@@ -9,6 +9,7 @@ bash-completion
 bat
 bison
 <<<<<<< HEAD
+<<<<<<< HEAD
 clang
 =======
 bash-completion
@@ -16,6 +17,9 @@ bat
 >>>>>>> fa91612 (updated files and packages)
 =======
 >>>>>>> a223976 (updated files and packages)
+=======
+clang
+>>>>>>> 4ca5e08 (updated files and packages)
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
