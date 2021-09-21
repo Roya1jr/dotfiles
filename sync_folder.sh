@@ -35,13 +35,8 @@ if [[ `git status --porcelain` ]]; then
 	git push
 fi
 
-DIR="/mnt/c/Users/"
-if [ -d "$DIR" ]; then
-#Files
-rsync  ~/.vimrc ~/winhome/.vimrc
-rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
-
-#Folders
-rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
-rsync -rW ~/.vim/plugset/ ~/winhome/vimfiles/plugset/
+MYDIR="/mnt/c/Users/Roya1"
+LOGDIR=$PWD
+if [ LOGDIR == MYDIR ]; then
+cd
 fi
