@@ -29,7 +29,7 @@ alias ls  "exa"
 
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
-echo LOGDIR
- if [ LOGDIR = MYDIR ] 
+echo $LOGDIR
+ if [ $LOGDIR = $MYDIR ] 
         cd
   end
