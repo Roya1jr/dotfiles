@@ -34,3 +34,14 @@ if [[ `git status --porcelain` ]]; then
 	git commit . -m "updated files and packages " && \
 	git push
 fi
+
+DIR="/mnt/c/Users/"
+if [ -d "$DIR" ]; then
+#Files
+rsync  ~/.vimrc ~/winhome/.vimrc
+rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
+
+#Folders
+rsync -rW ~/.vim/autoload/ ~/winhome/vimfiles/autoload/
+rsync -rW ~/.vim/plugset/ ~/winhome/vimfiles/plugset/
+fi
