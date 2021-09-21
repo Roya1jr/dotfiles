@@ -2,9 +2,9 @@
 add_newline = true
 
 [battery]
-full_symbol = ""
-charging_symbol = ""
-discharging_symbol = ""
+full_symbol = "🔋"
+charging_symbol = "🔌 "
+discharging_symbol = "💀"
 
 [cmd_duration]
 min_time = 500
@@ -16,13 +16,13 @@ truncation_symbol = "…/"
 
 [status]
 style = "bg:red"
-symbol = " "
+symbol = "⚠️"
 format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
 disabled = false
 
 [shell]
-fish_indicator = " "
+fish_indicator = " " 
 powershell_indicator = " "
 unknown_indicator = "mystery shell"
 disabled = false
@@ -61,15 +61,11 @@ format = "[$symbol$environment](dimmed green) "
 [dart]
 format = "via [ $version](bold blue) "
 
-[deno]
-format = "via [🦕 $version](bold green) "
-detect_extensions = ["js", "jsx", "ts", "tsx"]
-
 [docker_context]
 format = "via [ $context](blue bold)"
 
 [elixir]
-format = "via [ $version](bold purple) "
+format = "via [ $version](bold green) "
 
 [git_branch]
 symbol = " "
@@ -89,16 +85,15 @@ conflicted = "ﬔ "
 ahead = "壟"
 behind = "鹿"
 diverged = ""
-untracked = " ﰡ ‍ "
+untracked = " ‍"
 stashed = "   "
-modified = "  "
+modified = "  "
 staged = '[++\($count\)](green)'
 renamed = " 凜 "
 deleted = "  "
 
 [golang]
 format = "via [  $version](bold cyan) "
-
 
 [java]
 symbol = " "
@@ -119,8 +114,6 @@ truncation_symbol = ""
 
 [nodejs]
 format = "via [ $version](bold green) "
-detect_extensions = []
-detect_files = ["yarn.lock","package.json"]
 
 [package]
 format = "via [ $version](208 bold) "
@@ -132,5 +125,10 @@ pyenv_version_name = true
 [rust]
 format = "via [ $version](red bold)"
 
+
 [singularity]
 format = '[ \[$env\]]($style) '
+
+
+
+
