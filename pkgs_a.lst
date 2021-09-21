@@ -4,6 +4,7 @@ automake
 bash-completion
 bat
 bison
+clang
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
