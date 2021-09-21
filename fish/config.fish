@@ -29,6 +29,6 @@ alias ls  "exa"
 
 MYDIR "/mnt/c/Users/Roya1"
 LOGDIR $PWD
-if  LOGDIR == MYDIR 
-cd
-end
+ if [ LOGDIR = MYDIR ] 
+        cd
+  end
