@@ -28,7 +28,7 @@ alias ls  "exa"
 ~/dotfiles/sync_folder.sh
 
 set MYDIR "/mnt/c/Users/Roya1"
-set LOGDIR $PWD
+set LOGDIR "$PWD"
 echo LOGDIR
  if [ LOGDIR = MYDIR ] 
         cd
