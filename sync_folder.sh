@@ -35,8 +35,4 @@ if [[ `git status --porcelain` ]]; then
 	git push
 fi
 
-MYDIR="/mnt/c/Users/Roya1"
-LOGDIR=$PWD
-if [ LOGDIR == MYDIR ]; then
-cd
-fi
+

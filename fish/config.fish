@@ -26,3 +26,9 @@ alias ls  "exa"
 
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
+
+MYDIR "/mnt/c/Users/Roya1"
+LOGDIR $PWD
+if  LOGDIR == MYDIR 
+cd
+end
