@@ -25,5 +25,4 @@ alias cat "bat"
 alias ls  "exa"
 
 #Custom scripts and commands
-cd
 ~/dotfiles/sync_folder.sh
