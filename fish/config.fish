@@ -27,9 +27,9 @@ alias ls  "exa"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
+#Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
-echo $LOGDIR
  if [ $LOGDIR = $MYDIR ] 
         cd
   end
