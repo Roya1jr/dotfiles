@@ -1,15 +1,21 @@
 audit
+<<<<<<< HEAD
 autoconf
 automake
 bash-completion
 bat
 bison
 clang
+=======
+bash-completion
+bat
+>>>>>>> fa91612 (updated files and packages)
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
 docker-compose
 exa
+<<<<<<< HEAD
 fd-find
 fedora-repos-modular
 fish
@@ -48,3 +54,23 @@ vim-enhanced
 wget
 wslu
 xdpyinfo
+=======
+fedora-repos-modular
+fish
+generic-release
+glibc-langpack-en
+glx-utils
+mesa-dri-drivers
+mesa-libGL
+openssl
+podman
+podman-docker
+python3-devel
+python3-dnf-plugin-versionlock
+rsync
+setup
+shadow-utils
+vim-enhanced
+wget
+wslu
+>>>>>>> fa91612 (updated files and packages)
