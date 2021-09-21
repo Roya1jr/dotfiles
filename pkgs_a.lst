@@ -15,7 +15,10 @@ gcc-c++
 generic-release
 glibc-langpack-en
 glx-utils
+gnome-keyring
 libffi-devel
+libicu
+libsecret
 libtool
 libyaml-devel
 mesa-dri-drivers
@@ -34,3 +37,4 @@ sqlite-devel
 vim-enhanced
 wget
 wslu
+xdpyinfo
