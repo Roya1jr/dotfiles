@@ -10,6 +10,7 @@ distribution-gpg-keys
 dnf-utils
 docker-compose
 exa
+fd-find
 fedora-repos-modular
 fish
 gcc-c++
@@ -17,6 +18,7 @@ generic-release
 glibc-langpack-en
 glx-utils
 gnome-keyring
+hyperfine
 libffi-devel
 libicu
 libsecret
@@ -28,13 +30,17 @@ openssl
 openssl-devel
 podman
 podman-docker
+procs
 python3-devel
 python3-dnf-plugin-versionlock
 readline-devel
+ripgrep
 rsync
+sd
 setup
 shadow-utils
 sqlite-devel
+tokei
 vim-enhanced
 wget
 wslu
