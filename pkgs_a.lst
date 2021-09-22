@@ -15,6 +15,7 @@ fedora-repos-modular
 fish
 gcc-c++
 generic-release
+git-delta
 glibc-langpack-en
 glx-utils
 gnome-keyring
@@ -40,6 +41,7 @@ sd
 setup
 shadow-utils
 sqlite-devel
+tealdeer
 tokei
 vim-enhanced
 wget
