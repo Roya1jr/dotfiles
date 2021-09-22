@@ -5,9 +5,6 @@ set -g -x PATH "$VOLTA_HOME/bin:$PATH"
 #RVM
 set -g -x PATH "$PATH:$HOME/.rvm/bin"
 
-#Rust
-set -g -x RUST_HOME "$HOME/.cargo/env"
-set -g -x PATH "$RUST_HOME/bin:$PATH"
 #Starship
 starship init fish | source
 
