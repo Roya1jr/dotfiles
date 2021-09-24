@@ -6,12 +6,11 @@ if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     exit 
 fi
 
-#Get current user name and shell
+#Get current user name
 myuser=$SUDO_USER
-myshell= awk -F: -v user=$myuser '$1 == user {print $NF}' /etc/passwd
 
 #Install Packages
 ./pkginstall.sh
 
-#Change back to normal user and install the rest of the tools
-su - $myuser -c "cd `pwd`; ./userS.sh;`myshell`"
+#Change back to normal user, install the rest of the tools and sync folder
+su - $myuser -c "cd `pwd`; ./user_scripts.sh;"
