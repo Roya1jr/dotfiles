@@ -27,6 +27,7 @@ libtool
 libyaml-devel
 mesa-dri-drivers
 mesa-libGL
+nano
 openssl
 openssl-devel
 podman
