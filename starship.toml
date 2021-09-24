@@ -21,7 +21,6 @@ not_found_symbol = ""
 not_executable_symbol = " "
 signal_symbol = " "
 sigint_symbol = "ﰸ "
-success_symbol = "✔"
 format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
 disabled = false
