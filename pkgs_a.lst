@@ -26,6 +26,7 @@ dnf-utils
 docker-compose
 exa
 <<<<<<< HEAD
+<<<<<<< HEAD
 fd-find
 fedora-repos-modular
 fish
@@ -65,13 +66,18 @@ wget
 wslu
 xdpyinfo
 =======
+=======
+fd-find
+>>>>>>> c2d19a8 (updated files and packages)
 fedora-repos-modular
 fish
 gcc-c++
 generic-release
+git-delta
 glibc-langpack-en
 glx-utils
 gnome-keyring
+hyperfine
 libffi-devel
 libicu
 libsecret
@@ -79,17 +85,23 @@ libtool
 libyaml-devel
 mesa-dri-drivers
 mesa-libGL
+nano
 openssl
 openssl-devel
 podman
 podman-docker
+procs
 python3-devel
 python3-dnf-plugin-versionlock
 readline-devel
+ripgrep
 rsync
+sd
 setup
 shadow-utils
 sqlite-devel
+tealdeer
+tokei
 vim-enhanced
 wget
 wslu
