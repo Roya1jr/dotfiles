@@ -4,7 +4,6 @@ set -g -x PATH "$VOLTA_HOME/bin:$PATH"
 
 #RVM
 set -g -x PATH "$PATH:$HOME/.rvm/bin"
-rvm default
 
 #Starship
 starship init fish | source
