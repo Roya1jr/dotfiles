@@ -35,13 +35,14 @@ Plug 'vim-airline/vim-airline'
 Plug 'jbgutierrez/vim-better-comments'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
+Plug 'wojciechkepka/vim-github-dark'
 call plug#end()
 
 "Custom Commands
 let &t_ut=''
 set t_Co=256
 set encoding=UTF-8
-colorscheme codedark
+colorscheme 'vim-github-dark'
 set number
 set mouse=a
 source /etc/vimrc
