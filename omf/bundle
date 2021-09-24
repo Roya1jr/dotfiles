@@ -1,4 +1,3 @@
 package foreign-env
-package rvm
 package sdk
 theme default
