@@ -1,3 +1,5 @@
-# Dotfiles
+# Prince's  Dotfiles
 
-My Personal Dotfiles 
+## Installation
+
+
