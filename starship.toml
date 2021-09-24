@@ -2,9 +2,9 @@
 add_newline = true
 
 [battery]
-full_symbol = "🔋"
-charging_symbol = "🔌 "
-discharging_symbol = "💀"
+full_symbol = " "
+charging_symbol = " "
+discharging_symbol = "ﮊ "
 
 [cmd_duration]
 min_time = 500
@@ -16,7 +16,11 @@ truncation_symbol = "…/"
 
 [status]
 style = "bg:red"
-symbol = "⚠️"
+symbol = " "
+not_found_symbol = ""
+not_executable_symbol = " "
+signal_symbol = " "
+sigint_symbol = "ﰸ "
 format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
 disabled = false
