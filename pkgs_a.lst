@@ -1,13 +1,17 @@
 audit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a223976 (updated files and packages)
+=======
+>>>>>>> c2d19a8256d2d0e28364f3a8f27d5dd9dfbf9dcc
 autoconf
 automake
 bash-completion
 bat
 bison
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 clang
@@ -20,11 +24,15 @@ bat
 =======
 clang
 >>>>>>> 4ca5e08 (updated files and packages)
+=======
+clang
+>>>>>>> c2d19a8256d2d0e28364f3a8f27d5dd9dfbf9dcc
 cracklib-dicts
 distribution-gpg-keys
 dnf-utils
 docker-compose
 exa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 fd-find
@@ -70,6 +78,10 @@ xdpyinfo
 fd-find
 >>>>>>> c2d19a8 (updated files and packages)
 fedora-repos-modular
+=======
+fd-find
+fedora-repos-modular
+>>>>>>> c2d19a8256d2d0e28364f3a8f27d5dd9dfbf9dcc
 fish
 gcc-c++
 generic-release
@@ -106,7 +118,11 @@ vim-enhanced
 wget
 wslu
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fa91612 (updated files and packages)
 =======
 xdpyinfo
 >>>>>>> 9aa947d (updated files and packages)
+=======
+xdpyinfo
+>>>>>>> c2d19a8256d2d0e28364f3a8f27d5dd9dfbf9dcc
