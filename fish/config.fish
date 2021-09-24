@@ -3,7 +3,7 @@ set -g -x VOLTA_HOME "$HOME/.volta"
 set -g -x PATH "$VOLTA_HOME/bin:$PATH"
 
 #RVM
-set -g -x PATH "$PATH:$HOME/.rvm/bin"
+#set -g -x PATH "$PATH:$HOME/.rvm/bin"
 
 #Starship
 starship init fish | source
