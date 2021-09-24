@@ -4,6 +4,7 @@ set -g -x PATH "$VOLTA_HOME/bin:$PATH"
 
 #RVM
 set -g -x PATH "$PATH:$HOME/.rvm/bin"
+rvm default
 
 #Starship
 starship init fish | source
@@ -27,9 +28,11 @@ alias ls  "exa"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
+
 #Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
  if [ $LOGDIR = $MYDIR ] 
         cd
   end
+
