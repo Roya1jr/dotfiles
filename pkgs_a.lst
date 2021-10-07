@@ -19,6 +19,7 @@ clang-tools-extra
 cmake
 code
 colord-libs
+compat-lua-libs
 copyq
 dconf
 device-mapper-multipath
