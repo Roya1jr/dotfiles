@@ -17,7 +17,6 @@ chkconfig
 clang
 clang-tools-extra
 cmake
-code
 colord-libs
 compat-lua-libs
 copyq
@@ -61,7 +60,6 @@ haxe
 haxe-stdlib
 inih
 initscripts
-joplin
 json-glib
 jxl-pixbuf-loader
 kernel-modules-extra

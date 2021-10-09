@@ -14,7 +14,7 @@ set -g -x SDKMAN_DIR "$HOME/.sdkman"
 #Remove fish greeting
 set fish_greeting
 
-#Local Packages
+#Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
 
 #Raylib
@@ -28,9 +28,6 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
-
-#User
-set -g -x PATH "$PATH:$HOME/usr/bin"
 
 #Alias
 alias cat "bat"
