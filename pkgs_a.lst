@@ -57,6 +57,8 @@ gstreamer1-plugins-good-qt
 gtk2
 gtk3
 gtkmm24
+haxe
+haxe-stdlib
 inih
 initscripts
 joplin
@@ -111,11 +113,13 @@ libvdpau
 libxcrypt-compat
 libxkbcommon
 llvm11-libs
+mbedtls
 mdevctl
 mesa-libGL-devel
 mpv
 mpv-libs
 ncurses-devel
+nekovm
 nettle
 nspr
 nss
