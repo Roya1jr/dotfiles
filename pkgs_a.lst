@@ -208,6 +208,7 @@ sssd-nfs-idmap
 stack
 suil
 swtpm
+tealdeer
 totem-video-thumbnailer
 units
 vamp-plugin-sdk

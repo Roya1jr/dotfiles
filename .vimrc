@@ -12,10 +12,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Run PlugInstall if there are missing plugins
-autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \| PlugInstall --sync | source $MYVIMRC
-\| endif
 
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
@@ -25,6 +21,11 @@ if executable(s:clip)
         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
     augroup END
 endif
+
+" Run PlugInstall if there are missing plugins
+autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \| PlugInstall --sync | source $MYVIMRC
+\| endif
 
 "One nerdtree
 function! ToggleNERDTree()
@@ -52,6 +53,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'jbgutierrez/vim-better-comments'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
+Plug 'ayu-theme/ayu-vim'
 Plug 'justinmk/vim-sneak'
 Plug 'mattn/emmet-vim'
 Plug 'prabirshrestha/asyncomplete.vim'
@@ -70,7 +72,9 @@ endfor
 let &t_ut=''
 set t_Co=256
 set encoding=UTF-8
-colorscheme codedark
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
 set number
 set mouse=a
 set background=dark
@@ -79,3 +83,4 @@ set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
 packloadall
+

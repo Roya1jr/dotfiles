@@ -20,6 +20,10 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
+#Alias
+alias cat "bat"
+alias ls  "exa"
+
 #Rust
 set -g -x PATH "$PATH:$HOME/.cargo/bin"
 
@@ -29,10 +33,14 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
 
-#Alias
-alias cat "bat"
-alias ls  "exa"
-alias bns "play -n synth brownnoise synth pinknoise mix synth sine amod 0.1 10"
+
 #Custom scripts and commands
-cd
 ~/dotfiles/sync_folder.sh
+
+
+#Change path wsl
+set MYDIR "/mnt/c/Users/Roya1"
+set LOGDIR "$PWD"
+ if [ $LOGDIR = $MYDIR ]
+        cd
+  end
