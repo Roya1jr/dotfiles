@@ -1,4 +1,5 @@
 ImageMagick
+SDL2-devel
 albert
 alsa-lib-devel
 anaconda
@@ -99,6 +100,7 @@ libmbim
 libmbim-utils
 libnsl
 libpcap
+libpng-devel
 libpng12
 libqmi
 libqmi-utils
@@ -108,13 +110,17 @@ libsodium
 libsss_autofs
 libsss_sudo
 libtdb
+libuv-devel
 libvdpau
+libvorbis-devel
 libxcrypt-compat
 libxkbcommon
 llvm11-libs
 mbedtls
+mbedtls-devel
 mdevctl
 mesa-libGL-devel
+mesa-libGLU-devel
 mpv
 mpv-libs
 ncurses-devel
@@ -128,6 +134,7 @@ nss-sysinit
 nss-util
 ntfs-3g-libs
 okular
+openal-soft-devel
 openssl
 pango
 pipewire
@@ -210,6 +217,7 @@ suil
 swtpm
 tealdeer
 totem-video-thumbnailer
+turbojpeg-devel
 units
 vamp-plugin-sdk
 vim-common
