@@ -33,8 +33,6 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
 
-#HashLink Haxe
-set -g -x PATH "$PATH:$HOME/local/bin/hl"
 
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
