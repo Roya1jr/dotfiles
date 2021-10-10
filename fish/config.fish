@@ -24,6 +24,16 @@ set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 alias cat "bat"
 alias ls  "exa"
 
+#Rust
+set -g -x PATH "$PATH:$HOME/.cargo/bin"
+
+#Deno
+set -g -x PATH "$PATH:$HOME/.deno/bin"
+
+#Tidy
+set -g -x HTML_TIDY "$HOME/.config/tidy"
+
+
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
@@ -31,7 +41,6 @@ alias ls  "exa"
 #Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
- if [ $LOGDIR = $MYDIR ] 
+ if [ $LOGDIR = $MYDIR ]
         cd
   end
-
