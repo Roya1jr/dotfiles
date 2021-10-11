@@ -200,7 +200,9 @@ qt5-qtlocation
 qt5-qtsensors
 qt5-qtwebchannel
 qt5-qtwebengine
+qt5-qtwebengine-devel
 qt5-qtwebkit
+qwt-qt5-devel
 re2
 rest
 rpmfusion-free-release
