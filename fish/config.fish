@@ -23,7 +23,7 @@ set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 #Alias
 alias cat "bat"
 alias ls  "exa"
-
+alias bqn "~/CBQN/BQN"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
@@ -31,7 +31,6 @@ alias ls  "exa"
 #Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
- if [ $LOGDIR = $MYDIR ] 
+ if [ $LOGDIR = $MYDIR ]
         cd
   end
-
