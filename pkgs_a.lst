@@ -32,6 +32,7 @@ ffmpeg
 fftw-libs-single
 fish
 fontconfig
+fuse-sshfs
 gamemode
 gdk-pixbuf2-modules
 git-credential-libsecret
@@ -61,6 +62,10 @@ inih
 initscripts
 json-glib
 jxl-pixbuf-loader
+kakoune
+kde-connect
+kde-connect-libs
+kdeconnectd
 kernel-modules-extra
 kitty
 ladspa
@@ -84,6 +89,7 @@ libdrm
 libdrm-devel
 libedit
 libepoxy
+libfakekey
 libgusb
 libidn2
 libjxl
@@ -139,6 +145,7 @@ pipewire-alsa
 pipewire-libs
 podman-docker
 podman-gvproxy
+pulseaudio-qt
 python3-attrs
 python3-bcrypt
 python3-cached_property
