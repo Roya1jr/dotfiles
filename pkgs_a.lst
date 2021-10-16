@@ -6,8 +6,6 @@ anaconda-install-env-deps
 anaconda-live
 ardour6
 ardour6-backend-jack
-at-spi2-atk
-at-spi2-core
 atk
 aubio-lib
 bat
@@ -21,7 +19,6 @@ code
 colord-libs
 compat-lua-libs
 copyq
-dconf
 device-mapper-multipath
 distribution-gpg-keys
 docker-compose
@@ -77,7 +74,6 @@ libXrandr-devel
 libatomic
 libcanberra
 libcanberra-gtk2
-libcanberra-gtk3
 libcerf
 libcerf-devel
 libcloudproviders
