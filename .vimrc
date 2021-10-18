@@ -62,6 +62,7 @@ Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
+
 call plug#end()
 
 " Source setting
