@@ -37,6 +37,7 @@ python3-devel
 python3-dnf-plugin-versionlock
 readline-devel
 ripgrep
+rlwrap
 rsync
 sd
 setup
