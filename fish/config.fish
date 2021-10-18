@@ -9,8 +9,8 @@ set -g -x PATH "$PATH:$HOME/.rvm/bin"
 starship init fish | source
 
 #SDKMAN
-#set -g -x SDKMAN_DIR "$HOME/.sdkman"
-
+set -g -x SDKMAN_DIR "$HOME/.sdkman"
+set -g -x PATH "$SDKMAN_DIR/bin:$PATH"
 #Remove fish greeting
 set fish_greeting
 
