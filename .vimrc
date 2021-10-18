@@ -61,6 +61,7 @@ Plug 'prabirshrestha/asyncomplete-emmet.vim'
 Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
+Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 call plug#end()
 
 " Source setting
@@ -83,4 +84,5 @@ set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
 packloadall
-
+syntax on
+filetype plugin on
