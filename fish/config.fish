@@ -1,3 +1,11 @@
+#GHCUP
+ if [ $LOGDIR = $MYDIR ]
+        cd
+  end
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/ry1jr/.ghcup/bin
+
+#Qnial
+set -g PATH "$PATH:$HOME/tools/qnial7/binaries/Linux"
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
 set -g -x PATH "$VOLTA_HOME/bin:$PATH"
@@ -41,7 +49,3 @@ set -g -x HTML_TIDY "$HOME/.config/tidy"
 #Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
 set LOGDIR "$PWD"
- if [ $LOGDIR = $MYDIR ]
-        cd
-  end
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/ry1jr/.ghcup/bin # ghcup-env
