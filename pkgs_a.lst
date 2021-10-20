@@ -20,6 +20,7 @@ glibc-langpack-en
 glx-utils
 gnome-keyring
 hyperfine
+kakoune
 libffi-devel
 libicu
 libsecret
