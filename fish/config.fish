@@ -5,7 +5,11 @@
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/ry1jr/.ghcup/bin
 
 #Qnial
-set -g PATH "$PATH:$HOME/tools/qnial7/binaries/Linux"
+set -g -x PATH "$PATH:$HOME/tools/qnial7/binaries/Linux"
+
+#J
+set -g -x PATH "$PATH:$HOME/j903/bin"
+
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
 set -g -x PATH "$VOLTA_HOME/bin:$PATH"
