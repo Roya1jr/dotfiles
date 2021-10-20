@@ -95,6 +95,7 @@ initscripts
 iwlax2xx-firmware
 json-glib
 jxl-pixbuf-loader
+kakoune
 kde-connect
 kde-connect-libs
 kdeconnectd
