@@ -24,6 +24,7 @@ distribution-gpg-keys
 docker-compose
 dracut-live
 elixir
+emacs
 exa
 expat
 fdk-aac-free
