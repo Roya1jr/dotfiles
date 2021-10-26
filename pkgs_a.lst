@@ -97,11 +97,13 @@ initscripts
 iwlax2xx-firmware
 json-glib
 jxl-pixbuf-loader
+kaccounts-providers
 kakoune
 kde-connect
 kde-connect-libs
 kdeconnectd
 kernel-modules-extra
+kio-gdrive
 kitty
 ladspa
 langpacks-en
