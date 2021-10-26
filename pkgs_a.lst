@@ -70,6 +70,7 @@ ghc-xhtml
 git-credential-libsecret
 glibc-headers-x86
 gnome-dictionary
+gnome-extensions-app
 gnome-shell-extension-gamemode
 gnome-tour
 gnome-tweaks
