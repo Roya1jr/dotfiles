@@ -105,6 +105,7 @@ kdeconnectd
 kernel-modules-extra
 kio-gdrive
 kitty
+ktp-accounts-kcm
 ladspa
 langpacks-en
 libX11-devel
