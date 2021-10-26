@@ -12,6 +12,7 @@ bat
 bluez-libs
 cargo
 chkconfig
+chrome-gnome-shell
 clang
 clang-tools-extra
 cmake
