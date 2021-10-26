@@ -32,6 +32,7 @@ fdk-aac-free
 fedora-workstation-repositories
 ffmpeg
 fftw-libs-single
+firefox
 fish
 fontconfig
 fuse-sshfs
@@ -184,6 +185,7 @@ pango
 pipewire
 pipewire-alsa
 pipewire-libs
+plasma-browser-integration
 podman-docker
 podman-gvproxy
 pulseaudio-qt
