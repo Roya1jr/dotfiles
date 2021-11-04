@@ -27,6 +27,7 @@ set -g -x PATH "$PATH:$HOME/CBQN/BQN"
 alias cat "bat"
 alias ls  "exa"
 alias bqn "~/CBQN/BQN"
+
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
