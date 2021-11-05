@@ -217,6 +217,7 @@ pango
 pipewire
 pipewire-alsa
 pipewire-libs
+pipewire-media-session
 plasma-browser-integration
 podman-docker
 podman-gvproxy
@@ -332,6 +333,5 @@ wine-tahoma-fonts
 wine-times-new-roman-fonts
 wine-webdings-fonts
 wine-wingdings-fonts
-wireplumber
 wireplumber-libs
 xdg-desktop-portal-gnome
