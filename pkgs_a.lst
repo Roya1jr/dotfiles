@@ -218,6 +218,7 @@ pipewire
 pipewire-alsa
 pipewire-libs
 pipewire-media-session
+pl
 plasma-browser-integration
 podman-docker
 podman-gvproxy
