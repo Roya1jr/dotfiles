@@ -13,6 +13,7 @@ exa
 fd-find
 fedora-repos-modular
 fish
+flex
 gcc-c++
 generic-release
 git-delta
@@ -47,6 +48,7 @@ shadow-utils
 sqlite-devel
 systemd-oomd-defaults
 tealdeer
+texinfo
 tokei
 vim-enhanced
 wget
