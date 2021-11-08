@@ -32,6 +32,11 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
+#Mercury
+set -g -x PATH "$PATH:/usr/local/mercury-20.06.1/bin"
+set -g -x MANPATH "$MANPATH:/usr/local/mercury-20.06.1/man"
+set -g -x INFOPATH "$INFOPATH:/usr/local/mercury-20.06.1/info"
+
 #Alias
 alias cat "bat"
 alias ls  "exa"

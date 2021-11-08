@@ -311,6 +311,7 @@ swtpm
 systemd-oomd-defaults
 systemd-resolved
 tealdeer
+texinfo
 totem-video-thumbnailer
 turbojpeg-devel
 units
