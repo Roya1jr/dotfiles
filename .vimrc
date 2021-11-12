@@ -61,6 +61,8 @@ Plug 'prabirshrestha/asyncomplete-emmet.vim'
 Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
+Plug 'kana/vim-fakeclip'
+
 call plug#end()
 
 " Source setting
@@ -83,4 +85,3 @@ set noerrorbells
 set t_vb=
 set clipboard=unnamedplus
 packloadall
-
