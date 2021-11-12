@@ -110,7 +110,6 @@ gtkmm24
 gvncpulse
 haxe
 haxe-stdlib
-i3blocks
 imath
 inih
 initscripts
@@ -322,6 +321,7 @@ util-linux-core
 vamp-plugin-sdk
 vim-common
 vim-enhanced
+waybar
 wine-arial-fonts
 wine-courier-fonts
 wine-filesystem
