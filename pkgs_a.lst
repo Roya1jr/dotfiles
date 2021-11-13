@@ -136,6 +136,7 @@ libXcursor-devel
 libXi-devel
 libXinerama-devel
 libXrandr-devel
+libappindicator
 libatomic
 libbpf
 libcanberra
