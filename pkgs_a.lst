@@ -130,6 +130,7 @@ kitty
 ktp-accounts-kcm
 ladspa
 langpacks-en
+lavalauncher
 libX11-devel
 libXScrnSaver
 libXcursor-devel
@@ -213,7 +214,6 @@ nss-softokn-freebl
 nss-sysinit
 nss-util
 ntfs-3g-libs
-nwg-panel
 okular
 openal-soft-devel
 openssl
@@ -327,6 +327,7 @@ vamp-plugin-sdk
 vim-common
 vim-enhanced
 waybar
+wayfire
 wine-arial-fonts
 wine-courier-fonts
 wine-filesystem
