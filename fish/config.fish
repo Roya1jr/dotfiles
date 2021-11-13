@@ -54,6 +54,7 @@ set -g -x HTML_TIDY "$HOME/.config/tidy"
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
 
+set GTK_USE_PORTAL 0
 
 #Change path wsl
 set MYDIR "/mnt/c/Users/Roya1"
