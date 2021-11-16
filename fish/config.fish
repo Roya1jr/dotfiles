@@ -20,12 +20,21 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
+#Deno
+set -g -x DENO_INSTALL "/home/prince/.deno"
+set -g -x PATH "$DENO_INSTALL/bin:$PATH"
+
 #BQN
 set -g -x PATH "$PATH:$HOME/CBQN/BQN"
+
+#GHCup
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH
 
 #Alias
 alias cat "bat"
 alias ls  "exa"
+
+
 
 #Custom scripts and commands
 ~/dotfiles/sync_git.sh
@@ -37,4 +46,3 @@ set LOGDIR "$PWD"
  if [ $LOGDIR = $MYDIR ]
         cd
   end
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH # ghcup-env
