@@ -29,7 +29,7 @@ alias ls  "exa"
 alias bqn "~/CBQN/BQN"
 
 #Custom scripts and commands
-~/dotfiles/sync_folder.sh
+~/dotfiles/sync_git.sh
 
 
 #Change path wsl

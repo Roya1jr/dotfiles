@@ -46,7 +46,6 @@ sd
 setup
 shadow-utils
 sqlite-devel
-systemd-oomd-defaults
 tealdeer
 texinfo
 tokei
