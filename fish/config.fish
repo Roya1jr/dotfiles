@@ -37,3 +37,4 @@ set LOGDIR "$PWD"
  if [ $LOGDIR = $MYDIR ]
         cd
   end
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH # ghcup-env
