@@ -24,8 +24,8 @@ set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 set -g -x DENO_INSTALL "/home/prince/.deno"
 set -g -x PATH "$DENO_INSTALL/bin:$PATH"
 
-#BQN
-set -g -x PATH "$PATH:$HOME/CBQN/BQN"
+#QNIAL
+set -g -x PATH "$PATH:$HOME/QNial7/binaries/Linux"
 
 #GHCup
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH
