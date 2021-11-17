@@ -41,8 +41,8 @@ alias ls  "exa"
 
 
 #Change path wsl
-set MYDIR "/mnt/c/Users/Roya1"
-set LOGDIR "$PWD"
- if [ $LOGDIR = $MYDIR ]
-        cd
-  end
+#set MYDIR "/mnt/c/Users/Roya1"
+#set LOGDIR "$PWD"
+# if [ $LOGDIR = $MYDIR ]
+ #       cd
+ # end
