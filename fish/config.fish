@@ -34,15 +34,18 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 alias cat "bat"
 alias ls  "exa"
 
-
+#Mercury
+set -g -x PATH "$PATH:/usr/local/mercury-20.06.1/bin"
+set -g -x MANPATH "$MANPATH:/usr/local/mercury-20.06.1/share/man"
+set -g -x INFOPATH "$INFOPATH:/usr/local/mercury-20.06.1/share/info"
 
 #Custom scripts and commands
 ~/dotfiles/sync_git.sh
 
 
 #Change path wsl
-#set MYDIR "/mnt/c/Users/Roya1"
-#set LOGDIR "$PWD"
-# if [ $LOGDIR = $MYDIR ]
- #       cd
- # end
+set MYDIR "/mnt/c/Users/Roya1"
+set LOGDIR "$PWD"
+if [ $LOGDIR = $MYDIR ]
+        cd
+end

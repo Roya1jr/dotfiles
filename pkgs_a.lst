@@ -21,6 +21,7 @@ glibc-langpack-en
 glx-utils
 gnome-keyring
 gprolog
+httpd
 hyperfine
 kakoune
 libffi-devel
