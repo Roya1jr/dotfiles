@@ -9,6 +9,7 @@ cracklib-dicts
 distribution-gpg-keys
 dnf-utils
 docker-compose
+emacs
 exa
 fd-find
 fedora-repos-modular
