@@ -207,6 +207,7 @@ mpv-libs
 ncurses-devel
 nekovm
 nettle
+nnn
 nspr
 nss
 nss-softokn
