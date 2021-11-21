@@ -250,6 +250,7 @@ python3-pynacl
 python3-pyparsing
 python3-pyrsistent
 python3-pyyaml
+python3-regex
 python3-simpleaudio
 python3-texttable
 python3-tkinter
@@ -327,6 +328,7 @@ util-linux-core
 vamp-plugin-sdk
 vim-common
 vim-enhanced
+wapanel
 waybar
 wayfire
 wine-arial-fonts
