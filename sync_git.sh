@@ -16,7 +16,7 @@ DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
 
 #Folders
-rsync -rW ~/.doom.d/ ~/dotfiles/.doom.d/
+rsync -rW ~/.doom.d/ ~/winhome/.doom.d/
 
 #Files
 rsync  ~/.vimrc ~/winhome/.vimrc
