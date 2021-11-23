@@ -62,7 +62,7 @@ Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
-
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " Source setting
@@ -75,8 +75,7 @@ let &t_ut=''
 set t_Co=256
 set encoding=UTF-8
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
+colorscheme gruvbox
 set number
 set mouse=a
 set background=dark
