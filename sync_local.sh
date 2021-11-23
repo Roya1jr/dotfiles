@@ -9,6 +9,7 @@ git pull
 #Folders
 rsync -rW ~/dotfiles/omf/ ~/.config/omf/
 rsync -rW ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
+rsync -rW ~/dotfiles/.doom.d/ ~/.doom.d/
 
 #Files
 rsync ~/dotfiles/starship.toml ~/.config/starship.toml
