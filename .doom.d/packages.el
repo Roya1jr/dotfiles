@@ -53,7 +53,7 @@
                                         ;My Packages
 (package! j-mode)
 (package! ayu-theme)
-
+(package! racket-mode)
                                         ;Github
 (package!  bqn-mode
   :recipe (
