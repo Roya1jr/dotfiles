@@ -329,7 +329,6 @@ vamp-plugin-sdk
 vim-common
 vim-enhanced
 waybar
-wayfire
 wine-arial-fonts
 wine-courier-fonts
 wine-filesystem
