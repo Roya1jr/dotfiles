@@ -59,3 +59,9 @@
 
 (setq nial-console-cmd "nial64")
 (setq nial-console-cmd-args '("-i"))
+
+;; Windows Settings
+(if (eq system-type 'ms-dos)
+  (setq racket-racket-program "C:/Program Files/Racket/racket.exe")
+  (setq racket-raco-program "C:/Program Files/Racket/raco.exe")
+)
