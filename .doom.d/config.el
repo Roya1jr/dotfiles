@@ -62,6 +62,6 @@
 
 ;; Windows Settings
 (if (eq system-type 'windows-nt)
-  (setq racket-racket-program "C:/Program Files/Racket/racket.exe")
+  (setq racket-racket-program "C:/Program Files/Racket/Racket.exe")
   (setq racket-raco-program "C:/Program Files/Racket/raco.exe")
 )
