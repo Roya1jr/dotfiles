@@ -53,6 +53,7 @@
                                         ;My Packages
 (package! j-mode)
 (package! racket-mode)
+(package! gruvbox-theme)
                                         ;Github
 (package!  bqn-mode
   :recipe (
