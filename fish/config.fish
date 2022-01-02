@@ -55,5 +55,5 @@ set -g -x HTML_TIDY "$HOME/.config/tidy"
 ~/dotfiles/sync_folder.sh
 
 #Change path wsl
-set MYDIR "/mnt/c/Users/Roya1"
-set LOGDIR "$PWD"
+#set MYDIR "/mnt/c/Users/Roya1"
+#set LOGDIR "$PWD"
