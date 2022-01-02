@@ -24,7 +24,7 @@ starship init fish | source
 set -g -x SDKMAN_DIR "$HOME/.sdkman"
 
 #Remove fish greeting
-set fish_greeting
+#set fish_greeting
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
@@ -53,7 +53,3 @@ set -g -x HTML_TIDY "$HOME/.config/tidy"
 
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
-
-#Change path wsl
-#set MYDIR "/mnt/c/Users/Roya1"
-#set LOGDIR "$PWD"
