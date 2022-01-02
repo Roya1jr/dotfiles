@@ -26,5 +26,5 @@ if [[ `git status --porcelain` ]]; then
 	git push &&\
 	cd
 else
-  ls
+  cd
 fi
