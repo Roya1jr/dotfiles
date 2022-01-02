@@ -1,7 +1,4 @@
 #GHCUP
- if [ $LOGDIR = $MYDIR ]
-        cd
-  end
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/ry1jr/.ghcup/bin
 
 #Qnial
@@ -49,7 +46,6 @@ set -g -x PATH "$PATH:$HOME/.deno/bin"
 
 #Tidy
 set -g -x HTML_TIDY "$HOME/.config/tidy"
-
 
 #Custom scripts and commands
 ~/dotfiles/sync_folder.sh
