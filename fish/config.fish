@@ -21,7 +21,7 @@ starship init fish | source
 set -g -x SDKMAN_DIR "$HOME/.sdkman"
 
 #Remove fish greeting
-#set fish_greeting
+set fish_greeting
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
