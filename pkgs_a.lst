@@ -3,6 +3,7 @@ NetworkManager-tui
 SDL2-devel
 SDL2_image
 SFML
+SFML-devel
 alsa-lib-devel
 anaconda
 anaconda-install-env-deps
@@ -319,6 +320,7 @@ steam
 suil
 sway
 swtpm
+systemd-devel
 systemd-oomd-defaults
 systemd-resolved
 tealdeer
