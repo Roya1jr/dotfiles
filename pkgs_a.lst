@@ -50,6 +50,7 @@ sd
 setup
 shadow-utils
 sqlite-devel
+sway
 systemd-oomd-defaults
 tealdeer
 texinfo
