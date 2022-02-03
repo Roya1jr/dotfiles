@@ -184,6 +184,7 @@ libsss_sudo
 libstemmer
 libtdb
 libtracker-sparql
+libusb
 libusb1
 libuv-devel
 libvdpau
