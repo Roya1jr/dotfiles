@@ -42,6 +42,7 @@ procs
 python3-devel
 python3-dnf-plugin-system-upgrade
 python3-dnf-plugin-versionlock
+racket
 readline-devel
 ripgrep
 rlwrap
