@@ -6,6 +6,7 @@ bat
 bison
 clang
 cracklib-dicts
+dbus-x11
 distribution-gpg-keys
 dnf-utils
 docker-compose
@@ -16,6 +17,7 @@ fedora-repos-modular
 fish
 flex
 gcc-c++
+gedit
 generic-release
 git-delta
 glibc-langpack-en
