@@ -24,7 +24,6 @@ glibc-langpack-en
 glx-utils
 gnome-keyring
 gnome-tweaks
-gprolog
 httpd
 hyperfine
 kakoune
@@ -38,7 +37,6 @@ mesa-libGL
 nano
 openssl
 openssl-devel
-pl
 podman
 podman-docker
 procs
