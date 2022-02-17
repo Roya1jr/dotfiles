@@ -30,14 +30,17 @@ set -g -x PATH "$PATH:$HOME/QNial7/binaries/Linux"
 #GHCup
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH
 
-#Alias
-alias cat "bat"
-alias ls  "exa"
-
 #Mercury
 set -g -x PATH "$PATH:/usr/local/mercury-20.06.1/bin"
 set -g -x MANPATH "$MANPATH:/usr/local/mercury-20.06.1/share/man"
 set -g -x INFOPATH "$INFOPATH:/usr/local/mercury-20.06.1/share/info"
+
+#Rust
+set -g -x PATH "$PATH:$HOME/.cargo/bin"
+
+#Alias
+alias cat "bat"
+alias ls  "exa"
 
 #Custom scripts and commands
 ~/dotfiles/sync_git.sh
