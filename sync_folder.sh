@@ -11,7 +11,7 @@ rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
 rsync  ~/.vimrc ~/dotfiles/.vimrc
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
-rysnc  ~/.config/sway/config ~/dotfiles/sway/config
+rsync  ~/.config/sway/config ~/dotfiles/sway/config
 #Get Installed packages
 dnf repoquery --qf '%{name}' --userinstalled \
  | grep -v -- '-debuginfo$' \

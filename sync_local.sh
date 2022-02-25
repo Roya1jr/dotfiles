@@ -15,4 +15,4 @@ rsync -rW ~/dotfiles/.vim/autoload/ ~/.vim/autoload/
 rsync ~/dotfiles/starship.toml ~/.config/starship.toml
 rsync ~/dotfiles/.vimrc  ~/.vimrc
 rsync ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
-rysnc ~/dotfiles/sway/config ~/.config/sway/config
+rsync ~/dotfiles/sway/config ~/.config/sway/config
