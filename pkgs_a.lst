@@ -20,6 +20,7 @@ gcc-c++
 gedit
 generic-release
 git-delta
+git-subtree
 glibc-langpack-en
 glx-utils
 gnome-keyring
