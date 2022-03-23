@@ -50,6 +50,7 @@ set -g -x PATH "$PATH:$HOME/.cargo/bin"
 #Alias
 alias cat "bat"
 alias ls  "exa"
+alias bqn "$HOME/CBQN/BQN"
 
 #Custom scripts and commands
 ~/dotfiles/sync_git.sh
