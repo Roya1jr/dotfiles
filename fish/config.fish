@@ -1,3 +1,10 @@
+#Fish Settings
+
+#Remove fish greeting
+set fish_greeting
+
+# Path Variables
+
 #Volta
 set -g -x VOLTA_HOME "$HOME/.volta"
 set -g -x PATH "$VOLTA_HOME/bin:$PATH"
@@ -11,8 +18,7 @@ starship init fish | source
 #SDKMAN
 set -g -x SDKMAN_DIR "$HOME/.sdkman"
 set -g -x PATH "$SDKMAN_DIR/bin:$PATH"
-#Remove fish greeting
-set fish_greeting
+
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
