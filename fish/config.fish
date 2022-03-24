@@ -19,7 +19,6 @@ starship init fish | source
 set -g -x SDKMAN_DIR "$HOME/.sdkman"
 set -g -x PATH "$SDKMAN_DIR/bin:$PATH"
 
-
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
 
@@ -40,6 +39,9 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 set -g -x PATH "$PATH:/usr/local/mercury-20.06.1/bin"
 set -g -x MANPATH "$MANPATH:/usr/local/mercury-20.06.1/share/man"
 set -g -x INFOPATH "$INFOPATH:/usr/local/mercury-20.06.1/share/info"
+
+#J
+set -g -x PATH "$PATH:$HOME/j903/bin"
 
 #Rust
 set -g -x PATH "$PATH:$HOME/.cargo/bin"
