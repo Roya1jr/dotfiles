@@ -4,6 +4,7 @@ automake
 bash-completion
 bat
 bison
+buildah
 clang
 cracklib-dicts
 dbus-x11
@@ -39,6 +40,7 @@ nano
 openssl
 openssl-devel
 podman
+podman-compose
 podman-docker
 procs
 python3-devel
@@ -52,6 +54,7 @@ rsync
 sd
 setup
 shadow-utils
+skopeo
 sqlite-devel
 sway
 systemd-oomd-defaults
