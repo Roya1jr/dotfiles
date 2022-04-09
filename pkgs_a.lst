@@ -6,6 +6,7 @@ bat
 bison
 buildah
 clang
+clang-tools-extra
 cracklib-dicts
 dbus-x11
 distribution-gpg-keys
