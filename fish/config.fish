@@ -12,6 +12,9 @@ set -g -x PATH "$VOLTA_HOME/bin:$PATH"
 #RVM
 set -g -x PATH "$PATH:$HOME/.rvm/bin"
 
+#Maven
+set -g -x M2_HOME "$HOME/.skdman/candidates/maven/"
+
 #Starship
 starship init fish | source
 
