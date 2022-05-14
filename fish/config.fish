@@ -5,22 +5,8 @@ set fish_greeting
 
 # Path Variables
 
-#Volta
-set -g -x VOLTA_HOME "$HOME/.volta"
-set -g -x PATH "$VOLTA_HOME/bin:$PATH"
-
-#RVM
-set -g -x PATH "$PATH:$HOME/.rvm/bin"
-
-#Maven
-set -g -x M2_HOME "$HOME/.skdman/candidates/maven/"
-
 #Starship
 starship init fish | source
-
-#SDKMAN
-set -g -x SDKMAN_DIR "$HOME/.sdkman"
-set -g -x PATH "$SDKMAN_DIR/bin:$PATH"
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
@@ -28,26 +14,14 @@ set -g -x PATH "$PATH:$HOME/.local/bin"
 #Raylib
 set -g -x LD_LIBRARY_PATH "LD_LIBRARY_PATH:/usr/local/lib"
 
-#Deno
-set -g -x DENO_INSTALL "/home/prince/.deno"
-set -g -x PATH "$DENO_INSTALL/bin:$PATH"
-
 #QNIAL
 set -g -x PATH "$PATH:$HOME/QNial7/binaries/Linux"
-
-#GHCup
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/prince/.ghcup/bin $PATH
-
-#Mercury
-set -g -x PATH "$PATH:/usr/local/mercury-20.06.1/bin"
-set -g -x MANPATH "$MANPATH:/usr/local/mercury-20.06.1/share/man"
-set -g -x INFOPATH "$INFOPATH:/usr/local/mercury-20.06.1/share/info"
 
 #J
 set -g -x PATH "$PATH:$HOME/j903/bin"
 
-#Rust
-set -g -x PATH "$PATH:$HOME/.cargo/bin"
+#ASDF
+source ~/.asdf/asdf.fish
 
 #Alias
 alias cat "bat"

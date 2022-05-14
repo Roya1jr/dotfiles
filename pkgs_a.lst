@@ -1,7 +1,6 @@
 audit
 autoconf
 automake
-bash-completion
 bat
 bison
 buildah
@@ -11,7 +10,6 @@ cracklib-dicts
 dbus-x11
 distribution-gpg-keys
 dnf-utils
-docker-compose
 emacs
 exa
 fd-find
@@ -29,7 +27,6 @@ gnome-keyring
 gnome-tweaks
 httpd
 hyperfine
-kakoune
 libffi-devel
 libicu
 libsecret
@@ -37,16 +34,12 @@ libtool
 libyaml-devel
 mesa-dri-drivers
 mesa-libGL
-nano
 openssl
 openssl-devel
 podman
 podman-compose
 podman-docker
 procs
-python3-devel
-python3-dnf-plugin-system-upgrade
-python3-dnf-plugin-versionlock
 racket
 readline-devel
 ripgrep
