@@ -72,26 +72,26 @@ format = "via [ $context](blue bold)"
 format = "via [ $version](bold purple) "
 
 [git_branch]
-symbol = ""
+symbol = "  "
 truncation_length = 20
 truncation_symbol = ""
 
 [git_commit]
 commit_hash_length = 4
-tag_symbol = ""
+tag_symbol = "  "
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
 cherry_pick = "[ PICKING](bold red)"
 
 [git_status]
-conflicted = "ﬔ"
-ahead = "壟"
-behind = "鹿"
-diverged = ""
-untracked = ""
-stashed = ""
-modified = ""
+conflicted = " ﬔ "
+ahead = " 壟 "
+behind = " 鹿 "
+diverged = "  "
+untracked = "  "
+stashed = "  "
+modified = "  "
 staged = '[++\($count\)](green)'
 renamed = " 凜 "
 deleted = "  "
@@ -100,7 +100,7 @@ deleted = "  "
 format = "via [  $version](bold cyan) "
 
 [java]
-symbol = ""
+symbol = "  "
 
 [kubernetes]
 format = 'on [⎈ $context \($namespace\)](dimmed green) '
@@ -123,7 +123,7 @@ format = "via [ $version](bold green) "
 format = "via [ $version](208 bold) "
 
 [python]
-symbol = ""
+symbol = "  "
 pyenv_version_name = true
 
 [rust]
@@ -131,7 +131,3 @@ format = "via [ $version](red bold)"
 
 [singularity]
 format = '[ \[$env\]]($style) '
-
-
-
-
