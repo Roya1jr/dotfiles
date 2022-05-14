@@ -28,12 +28,15 @@ libgcc
 libicu
 libtool
 libyaml-devel
+mesa-dri-drivers
+mesa-libGL
 openssl
 openssl-devel
 podman
 podman-compose
 podman-docker
 procs
+python3-dnf-plugin-versionlock
 racket
 readline-devel
 ripgrep
