@@ -22,7 +22,6 @@ glibc-langpack-en
 glx-utils
 gnome-keyring
 gnome-tweaks
-httpd
 hyperfine
 libffi-devel
 libgcc
