@@ -37,7 +37,6 @@ podman-compose
 podman-docker
 procs
 python3-dnf-plugin-versionlock
-racket
 readline-devel
 ripgrep
 rlwrap
