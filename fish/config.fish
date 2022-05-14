@@ -5,8 +5,6 @@ set fish_greeting
 
 # Path Variables
 
-#Starship
-starship init fish | source
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.local/bin"
@@ -29,3 +27,6 @@ alias ls  "exa"
 
 #Custom scripts and commands
 ~/dotfiles/sync_git.sh
+
+#Starship
+starship init fish | source
