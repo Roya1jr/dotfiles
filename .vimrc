@@ -34,6 +34,8 @@ function! ToggleNERDTree()
 	silent NERDTreeMirror
 endfunction
 
+set nocompatible
+
 " Plugins
 call plug#begin(data_dir.'/plugins')
 Plug 'mhinz/vim-startify'
