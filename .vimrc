@@ -1,5 +1,6 @@
 if has('unix')
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+let g:python3_host_prog = 'python'
 endif
 
 if has('win32')
@@ -55,21 +56,7 @@ Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 Plug 'morhetz/gruvbox'
-
-"ncm2 autocomplete
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
-Plug 'ncm2/ncm2-path'
-Plug 'subnut/ncm2-github-emoji'
-Plug 'ncm2/ncm2-cssomni'
-Plug 'ncm2/ncm2-tern'
-Plug 'mhartington/nvim-typescript'
-Plug 'ncm2/ncm2-jedi'
-Plug 'ncm2/ncm2-racer'
-Plug 'ncm2/ncm2-pyclang'
-Plug 'ncm2/ncm2-vim'
-Plug 'ncm2/ncm2-go'
-Plug 'oncomouse/ncm2-biblatex'
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 
 call plug#end()
