@@ -67,6 +67,7 @@ for f in glob(data_dir.'/plugset/*.vim', 0, 1)
 endfor
 
 "Custom Commands
+set updatetime=300
 let &t_ut=''
 set t_Co=256
 set encoding=UTF-8
