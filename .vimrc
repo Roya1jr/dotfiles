@@ -57,7 +57,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
