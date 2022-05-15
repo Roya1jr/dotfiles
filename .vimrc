@@ -35,14 +35,6 @@ endfunction
 
 " Plugins
 call plug#begin(data_dir.'/plugins')
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
 Plug 'mhinz/vim-startify'
 Plug 'srcery-colors/srcery-vim'
 Plug 'preservim/nerdtree'
@@ -63,6 +55,23 @@ Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 Plug 'morhetz/gruvbox'
+
+"ncm2 autocomplete
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-path'
+Plug 'subnut/ncm2-github-emoji'
+Plug 'ncm2/ncm2-cssomni'
+Plug 'ncm2/ncm2-tern'
+Plug 'mhartington/nvim-typescript'
+Plug 'ncm2/ncm2-jedi'
+Plug 'ncm2/ncm2-racer'
+Plug 'ncm2/ncm2-pyclang'
+Plug 'ncm2/ncm2-vim'
+Plug 'ncm2/ncm2-go'
+Plug 'oncomouse/ncm2-biblatex'
+
+
 call plug#end()
 
 " Source setting
