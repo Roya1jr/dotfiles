@@ -5,7 +5,7 @@ alias cat "bat"
 alias ls  "exa"
 alias vi  "nvim"
 alias vim "nvim"
-
+alias nvm "nvim"
 #Fish Settings
 set fish_greeting
 
