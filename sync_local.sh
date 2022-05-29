@@ -7,8 +7,8 @@ git pull
 # Resync
 
 #Folders
-rsync -rW ~/dotfiles/omf/ ~/.config/omf/
-rsync -rW ~/dotfiles/.vim/plugin/ ~/.vim/plugin/
+rsync -rW ~/dotfiles/nvim/ ~/.config/nvim/
+rsync -rW ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
 rsync -rW ~/dotfiles/.vim/autoload/ ~/.vim/autoload/
 
 #Files
