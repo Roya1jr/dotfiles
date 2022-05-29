@@ -13,5 +13,5 @@ myuser=$SUDO_USER
 ./pkginstall.sh
 
 #Change back to normal user, install the rest of the tools and sync folder
-su - $myuser -c "cd `pwd`; ./user_scripts.sh;"
+su - $myuser -c "cd `pwd`; ./sync_local.sh;"
 

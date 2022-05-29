@@ -4,12 +4,9 @@
 
 #Folders
 rsync -rW  ~/.config/nvim/ ~/dotfiles/nvim/
-rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
-rsync -rW ~/.vim/autoload/ ~/dotfiles/.vim/autoload/
 
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
-rsync  ~/.vimrc ~/dotfiles/.vimrc
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 rsync  ~/.config/sway/config ~/dotfiles/sway/config
 
