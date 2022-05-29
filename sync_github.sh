@@ -14,8 +14,9 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 rsync  ~/.config/sway/config ~/dotfiles/sway/config
 
 #Get Installed packages
-sudo dnf repoquery --userinstalled > ~/dotfiles/pkgs_a.lst
-
+dnf repoquery --qf '%{name}' --userinstalled \
+ | grep -v -- '-debuginfo$' \
+ | grep -v '^\(kernel-modules\|kernel\|kernel-core\|kernel-devel\)$' > ~/dotfiles/pkgs_a.lst
 # Push files to remote
 cd ~/dotfiles/
 
