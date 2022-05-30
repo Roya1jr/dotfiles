@@ -14,9 +14,6 @@ rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
 DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
 
-#Folders
-rsync -rW ~/.doom.d/ ~/winhome/.doom.d/
-
 #Files
 rsync  ~/.vimrc ~/winhome/.vimrc
 rsync  ~/.config/starship.toml ~/winhome/.config/starship.toml
