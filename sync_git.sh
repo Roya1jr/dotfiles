@@ -17,7 +17,7 @@ if [ -d "$DIR" ]; then
 #Files
 rsync  ~/.vimrc $winhome/.vimrc
 rsync  ~/.config/starship.toml $winhome/.config/starship.toml
-
+rsync  ~/.vim/plugset/ $winhome/vimfiles/plugset/
 fi
 
 #Get Installed packages
