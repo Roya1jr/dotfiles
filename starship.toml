@@ -7,7 +7,7 @@ charging_symbol = " "
 discharging_symbol = "ﮊ "
 
 [cmd_duration]
-min_time = 1000
+min_time = 500
 format = "underwent [$duration](bold yellow)"
 
 [directory]
@@ -26,7 +26,7 @@ map_symbol = true
 disabled = false
 
 [shell]
-fish_indicator = " "
+fish_indicator = " " 
 powershell_indicator = " "
 unknown_indicator = "mystery shell"
 disabled = false
@@ -38,14 +38,14 @@ threshold = 3
 
 [time]
 disabled = false
-format = '[\[ $time \]]($style)'
+format = '[\[ $time \]]($style) '
 time_format = "%v %r"
 use_12hr = true
 
 [username]
 style_user = "white bold"
 style_root = "black bold"
-format = "user: [$user]($style)"
+format = "user: [$user]($style) "
 disabled = false
 show_always = true
 
@@ -54,7 +54,7 @@ show_always = true
 [aws]
 format = 'on [$symbol($profile )(\($region\) )]($style)'
 style = "bold yellow"
-symbol = ""
+symbol = " "
 [aws.region_aliases]
 ap-southeast-2 = "au"
 us-east-1 = "va"
@@ -69,28 +69,28 @@ format = "via [ $version](bold blue) "
 format = "via [ $context](blue bold)"
 
 [elixir]
-format = "via [ $version](bold purple) "
+format = "via [ $version](bold green) "
 
 [git_branch]
-symbol = "  "
+symbol = " "
 truncation_length = 20
 truncation_symbol = ""
 
 [git_commit]
 commit_hash_length = 4
-tag_symbol = "  "
+tag_symbol = " "
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
 cherry_pick = "[ PICKING](bold red)"
 
 [git_status]
-conflicted = " ﬔ "
-ahead = " 壟 "
-behind = " 鹿 "
-diverged = "  "
-untracked = "  "
-stashed = "  "
+conflicted = "ﬔ "
+ahead = "壟"
+behind = "鹿"
+diverged = ""
+untracked = " ‍"
+stashed = "   "
 modified = "  "
 staged = '[++\($count\)](green)'
 renamed = " 凜 "
@@ -100,7 +100,7 @@ deleted = "  "
 format = "via [  $version](bold cyan) "
 
 [java]
-symbol = "  "
+symbol = " "
 
 [kubernetes]
 format = 'on [⎈ $context \($namespace\)](dimmed green) '
@@ -123,11 +123,16 @@ format = "via [ $version](bold green) "
 format = "via [ $version](208 bold) "
 
 [python]
-symbol = "  "
+symbol = " "
 pyenv_version_name = true
 
 [rust]
 format = "via [ $version](red bold)"
 
+
 [singularity]
 format = '[ \[$env\]]($style) '
+
+
+
+
