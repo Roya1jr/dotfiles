@@ -8,6 +8,7 @@ if has('unix')
 let g:startify_bookmarks=[
 			\ {'v': '~/.vimrc'},
 			\ {'f': '~/.config/fish/config.fish'},
+			\ {'k': '~/.config/kitty/kitty.conf'},
 			\ {'s': '~/.vim/plugset/startify.vim'},
 			\ {'t': '~/.config/starship.toml'},
 			\]
