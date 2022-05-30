@@ -9,6 +9,7 @@ copr-cli
 coreutils
 cracklib-dicts
 dnf
+dnf-plugins-core
 emacs
 exa
 fedora-release-container
@@ -51,4 +52,5 @@ util-linux-user
 vim-enhanced
 vim-minimal
 wget
+wslu
 yum

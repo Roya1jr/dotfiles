@@ -17,7 +17,7 @@
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
 
-(setq doom-font "JetBrainsMono Nerd Font");
+(setq doom-font(font-spec :family  "FantasqueSansMono Nerd Font" :size 18));
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
