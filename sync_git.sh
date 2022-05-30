@@ -15,8 +15,8 @@ DIR="/mnt/c/Users/"
 if [ -d "$DIR" ]; then
 
 #Files
-rsync  ~/.vimrc ~/$winhome/.vimrc
-rsync  ~/.config/starship.toml ~/$winhome/.config/starship.toml
+rsync  ~/.vimrc $winhome/.vimrc
+rsync  ~/.config/starship.toml $winhome/.config/starship.toml
 
 fi
 
