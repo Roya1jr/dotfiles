@@ -52,7 +52,7 @@ function M.setup()
         vim.notify = require "notify"
       end,
     }
-
+       
     -- Colorscheme
     use {"rebelot/kanagawa.nvim",
         config = function()
@@ -298,7 +298,8 @@ function M.setup()
       disable = false,
     }
 
-    -- LSP
+    
+    -- LSP installer
     use {
       "neovim/nvim-lspconfig",
       opt = true,
@@ -307,9 +308,9 @@ function M.setup()
       config = function()
         require("config.lsp").setup()
       end,
-      requires = {
-        "williamboman/nvim-lsp-installer",
-        "ray-x/lsp_signature.nvim",
+     requires = {
+       "williamboman/nvim-lsp-installer",
+       "ray-x/lsp_signature.nvim",
       },
     }
 
