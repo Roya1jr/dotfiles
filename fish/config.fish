@@ -28,7 +28,7 @@ source ~/.asdf/asdf.fish
 zoxide init fish | source
 
 #winhome
-alias winhome 'cd "$(wslpath "$(wslvar USERPROFILE)")"'
+alias winhome "cd (wslpath (wslvar USERPROFILE))"
 
 #Alias
 alias cat "bat"
