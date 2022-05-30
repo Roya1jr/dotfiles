@@ -3,7 +3,7 @@
 #Folders
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
 rsync -rW ~/.doom.d/ ~/dotfiles/.doom.d/
-rysnc -rW ~/.config/nvim/ ~/dotfiles/nvim/
+rsync -rW ~/.config/nvim/ ~/dotfiles/nvim/
 
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
