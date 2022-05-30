@@ -1,6 +1,5 @@
 if has('unix')
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
-let g:python3_host_prog = 'python'
 endif
 
 if has('win32')
@@ -34,10 +33,16 @@ function! ToggleNERDTree()
 	silent NERDTreeMirror
 endfunction
 
-set nocompatible
-
 " Plugins
 call plug#begin(data_dir.'/plugins')
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
 Plug 'mhinz/vim-startify'
 Plug 'srcery-colors/srcery-vim'
 Plug 'preservim/nerdtree'
@@ -50,13 +55,13 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
 Plug 'ayu-theme/ayu-vim'
 Plug 'justinmk/vim-sneak'
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'mattn/emmet-vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-emmet.vim'
+Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 Plug 'morhetz/gruvbox'
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-Plug 'sheerun/vim-polyglot'
-
 call plug#end()
 
 " Source setting
@@ -65,7 +70,6 @@ for f in glob(data_dir.'/plugset/*.vim', 0, 1)
 endfor
 
 "Custom Commands
-set updatetime=300
 let &t_ut=''
 set t_Co=256
 set encoding=UTF-8
