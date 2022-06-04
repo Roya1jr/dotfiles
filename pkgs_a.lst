@@ -5,6 +5,7 @@ bzip2
 bzip2-devel
 clang
 clang-tools-extra
+composer
 copr-cli
 coreutils
 cracklib-dicts
