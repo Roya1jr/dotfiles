@@ -6,9 +6,6 @@ set fish_greeting
 
 #Path Variables
 
-#Starship
-starship init fish | source
-
 #Pip
 set -g -x PATH "$PATH:$HOME/.asdf/installs/python/3.10.4/bin"
 
@@ -41,3 +38,8 @@ alias vim "nvim"
 ~/dotfiles/sync_git.sh
 
 end
+
+#Starship
+starship init fish | source
+
+
