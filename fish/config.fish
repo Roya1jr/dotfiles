@@ -6,9 +6,6 @@ set fish_greeting
 
 #Path Variables
 
-#Starship
-starship init fish | source
-
 #Pip
 set -g -x PATH "$PATH:$HOME/.asdf/installs/python/3.10.4/bin"
 
@@ -20,6 +17,10 @@ set -g -x PATH "$PATH:$HOME/j903/bin"
 
 #ASDF
 source ~/.asdf/asdf.fish
+
+#Starship
+starship init fish | source
+
 
 #Java
 . ~/.asdf/plugins/java/set-java-home.fish
