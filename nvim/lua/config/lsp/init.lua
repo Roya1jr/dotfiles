@@ -1,7 +1,6 @@
 local M = {}
 
 local servers = {
-asm_lsp = {},
 clangd = {},
 cmake = {},
 dockerls = {},
@@ -13,6 +12,7 @@ julials = {},
 kotlin_language_server = {},
 lemminx = {},
 ltex = {},
+taplo = {},
 sumneko_lua = {
 settings = {
         Lua = {
@@ -23,7 +23,6 @@ settings = {
     }
 },
 tailwindcss = {},
-taplo = {},
 tsserver = {},
 volar = {},
 yamlls = {},
@@ -51,11 +50,9 @@ local function on_attach(client, bufnr)
   require("config.lsp.keymaps").setup(client, bufnr)
 end
 
--- local capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities()) -- for nvim-cmp
 
 local opts = {
   on_attach = on_attach,
-  -- capabilities = capabilities, -- for nvim-cmp
   flags = {
     debounce_text_changes = 150,
   },

@@ -56,7 +56,7 @@ function M.setup()
     -- Colorscheme
     use {"rebelot/kanagawa.nvim",
         config = function()
-        vim.cmd "colorscheme kanagawa"
+       vim.cmd "colorscheme kanagawa"
       end,
     }
 
@@ -304,7 +304,7 @@ function M.setup()
       "neovim/nvim-lspconfig",
       opt = true,
       event = "BufReadPre",
-      wants = { "nvim-lsp-installer", "lsp_signature.nvim", "coq_nvim" }, 
+      wants = { "nvim-lsp-installer", "lsp_signature.nvim", "coq_nvim" },   
       config = function()
         require("config.lsp").setup()
       end,

@@ -7,7 +7,7 @@ charging_symbol = " "
 discharging_symbol = "ﮊ "
 
 [cmd_duration]
-min_time = 500
+min_time = 100000
 format = "underwent [$duration](bold yellow)"
 
 [directory]
