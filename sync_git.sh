@@ -3,12 +3,13 @@
 #Folders
 rsync -rW ~/.vim/plugset/ ~/dotfiles/.vim/plugset/
 rsync -rW ~/.doom.d/ ~/dotfiles/.doom.d/
-rsync -rW ~/.config/nvim/ ~/dotfiles/nvim/
+rsync -rW ~/.config/nvim/lua/ ~/dotfiles/nvim/lua/
 
 #Files
 rsync  ~/.config/starship.toml ~/dotfiles/starship.toml
 rsync  ~/.vimrc ~/dotfiles/.vimrc
 rsync  ~/.config/fish/config.fish ~/dotfiles/fish/config.fish
+rsync  ~/.config/nvim/init.lua  ~/dotfiles/nvim/init.lua
 
 #Windows
 DIR="/mnt/c/Users/"
