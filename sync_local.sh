@@ -7,9 +7,9 @@ git pull
 # Resync
 
 #Folders
-rsync -rW ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
-rsync -rW ~/dotfiles/.doom.d/ ~/.doom.d/
-rsync -rW ~/dotfiles/nvim/lua ~/.config/nvim/lua
+rsync -av --delete ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
+rsync -av --delete ~/dotfiles/.doom.d/ ~/.doom.d/
+rsync -av --delete ~/dotfiles/nvim/lua/ ~/.config/nvim/lua/
 
 #Files
 rsync ~/dotfiles/starship.toml ~/.config/starship.toml
@@ -26,6 +26,6 @@ rsync  ~/dotfiles/.vimrc $winhome/.vimrc
 rsync  ~/dotfiles/starship.toml $winhome/.config/starship.toml
 
 #Folders
-rsync -rW  ~/dotfiles/.vim/plugset/ $winhome/vimfiles/plugset/
+rsync -av --delete ~/dotfiles/.vim/plugset/ $winhome/vimfiles/plugset/
 
 fi
