@@ -242,35 +242,7 @@ function M.setup()
       disable = false,
     }
 
-    use {
-      "hrsh7th/nvim-cmp",
-      event = "InsertEnter",
-      opt = true,
-      config = function()
-        require("config.cmp").setup()
-      end,
-      wants = { "LuaSnip" },
-      requires = {
-        "hrsh7th/cmp-buffer",
-        "hrsh7th/cmp-path",
-        "hrsh7th/cmp-nvim-lua",
-        "ray-x/cmp-treesitter",
-        "hrsh7th/cmp-cmdline",
-        "saadparwaiz1/cmp_luasnip",
-        "hrsh7th/cmp-nvim-lsp",
-        {
-          "L3MON4D3/LuaSnip",
-          wants = "friendly-snippets",
-          config = function()
-            require("config.luasnip").setup()
-          end,
-        },
-        "rafamadriz/friendly-snippets",
-      },
-      disable = true,
-    }
-
-    -- Auto pairs
+        -- Auto pairs
     use {
       "windwp/nvim-autopairs",
       wants = "nvim-treesitter",
@@ -297,14 +269,12 @@ function M.setup()
       event = "InsertEnter",
       disable = false,
     }
-
-    
     -- LSP installer
     use {
       "neovim/nvim-lspconfig",
       opt = true,
       event = "BufReadPre",
-      wants = { "nvim-lsp-installer", "lsp_signature.nvim", "coq_nvim" },   
+      wants = { "nvim-lsp-installer", "lsp_signature.nvim", "coq_nvim" },
       config = function()
         require("config.lsp").setup()
       end,
