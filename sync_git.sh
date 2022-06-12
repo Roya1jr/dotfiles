@@ -24,9 +24,7 @@ rsync -rW  ~/.vim/plugset/ $winhome/vimfiles/plugset/
 fi
 
 #Get Installed packages
-dnf repoquery --qf '%{name}' --userinstalled \
- | grep -v -- '-debuginfo$' \
- | grep -v '^\(kernel-modules\|kernel\|kernel-core\|kernel-devel\)$' > ~/dotfiles/pkgs_a.lst
+rpm -qa --last > ~/dotfiles/pkgs_a.lst
 
 # Push files to remote
 cd ~/dotfiles/
