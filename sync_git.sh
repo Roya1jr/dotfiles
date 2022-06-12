@@ -24,7 +24,7 @@ rsync -rW  ~/.vim/plugset/ $winhome/vimfiles/plugset/
 fi
 
 #Get Installed packages
-rpm -qa --last > ~/dotfiles/pkgs_a.lst
+rpm -qa --qf "%{NAME}\n" > ~/dotfiles/pkgs_a.lst
 
 # Push files to remote
 cd ~/dotfiles/
