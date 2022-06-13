@@ -11,6 +11,8 @@ fedora-release-container
 fedora-repos-modular
 fish
 gcc-c++
+glibc-langpack-en
+glibc-locale-source
 glibc-minimal-langpack
 iproute
 iputils
