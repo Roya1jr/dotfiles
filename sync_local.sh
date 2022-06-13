@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 
+while read PLG
+do
+$HOME/.asdf/bin/asdf plugin-add "$PLG" && asdf install "$PLG" latest && asdf global "$PLG" latest
+
+done < plugins.lst
+
 #Pull from remote
 cd ~/dotfiles/
 git pull
