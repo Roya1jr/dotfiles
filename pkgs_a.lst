@@ -35,5 +35,6 @@ tk-devel
 util-linux-core
 util-linux-user
 vim-minimal
+wget
 which
 yum
