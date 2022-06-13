@@ -8,6 +8,7 @@ set fish_greeting
 
 #Pip
 set -g -x PATH "$PATH:$HOME/.asdf/installs/python/3.10.4/bin"
+set -g -x PATH "$PATH:$HOME/.local/bin"
 
 #QNIAL
 set -g -x PATH "$PATH:$HOME/QNial7/binaries/Linux"
