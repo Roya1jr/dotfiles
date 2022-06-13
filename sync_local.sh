@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+#ASDF
+~/dotfiles/asdf_install.sh
+
 #Pull from remote
 cd ~/dotfiles/
 git pull
@@ -7,15 +10,16 @@ git pull
 # Resync
 
 #Folders
-rsync -av --delete ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
-rsync -av --delete ~/dotfiles/.doom.d/ ~/.doom.d/
-rsync -av --delete ~/dotfiles/nvim/lua/ ~/.config/nvim/lua/
+rsync -av --delete --mkpath ~/dotfiles/.vim/plugset/ ~/.vim/plugset/
+rsync -av --delete --mkpath ~/dotfiles/.doom.d/ ~/.doom.d/
+rsync -av --delete --mkpath ~/dotfiles/nvim/lua/ ~/.config/nvim/lua/
 
 #Files
 rsync ~/dotfiles/starship.toml ~/.config/starship.toml
 rsync ~/dotfiles/.vimrc  ~/.vimrc
 rsync ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 rsync ~/dotfiles/nvim/init.lua ~/.config/nvim/init.lua 
+
 
 #Windows
 DIR="/mnt/c/Users/"
