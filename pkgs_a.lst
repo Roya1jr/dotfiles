@@ -9,6 +9,7 @@ exa
 fedora-release-container
 fedora-repos-modular
 fish
+gcc-c++
 glibc-minimal-langpack
 iproute
 iputils

@@ -1,3 +1,4 @@
+java
 julia
 kotlin
 kubectl
@@ -10,5 +11,6 @@ python
 ruby
 rust
 skaffold
+starship
 yarn
 zoxide
