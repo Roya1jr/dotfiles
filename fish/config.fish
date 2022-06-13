@@ -24,7 +24,6 @@ source ~/.asdf/asdf.fish
 #Starship
 starship init fish | source
 
-
 #Java
 . ~/.asdf/plugins/java/set-java-home.fish
 
@@ -37,7 +36,6 @@ alias ls  "exa"
 alias top "htop"
 alias vi  "nvim"
 alias vim "nvim"
-#alias cd "z"
 
 #Custom scripts
 ~/dotfiles/sync_git.sh
