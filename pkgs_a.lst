@@ -1,5 +1,6 @@
 bash
 bat
+buildah
 bzip2
 bzip2-devel
 coreutils
@@ -18,10 +19,13 @@ man-db
 man-pages
 openssl-devel
 passwd
+podman
+podman-compose
 readline-devel
 rootfiles
 rpm
 rsync
+skopeo
 sqlite
 sqlite-devel
 sudo
