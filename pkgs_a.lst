@@ -17,6 +17,7 @@ iputils
 libffi-devel
 man-db
 man-pages
+mariadb
 openssl-devel
 passwd
 podman
