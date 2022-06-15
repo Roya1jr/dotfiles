@@ -36,7 +36,7 @@ alias ls  "exa"
 alias top "htop"
 alias vi  "nvim"
 alias vim "nvim"
-
+alias docker-compose "podman-compose"
 #Custom scripts
 ~/dotfiles/sync_git.sh
 
