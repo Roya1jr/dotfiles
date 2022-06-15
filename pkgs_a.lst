@@ -24,6 +24,7 @@ openssl-devel
 passwd
 podman
 podman-compose
+podman-docker
 readline-devel
 rootfiles
 rpm
