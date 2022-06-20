@@ -6,6 +6,7 @@ bzip2-devel
 coreutils
 cracklib-dicts
 dnf
+dnf-plugins-core
 exa
 fedora-release-container
 fedora-repos-modular
