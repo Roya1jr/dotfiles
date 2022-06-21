@@ -19,6 +19,7 @@ gd-devel
 glibc-langpack-en
 glibc-locale-source
 glibc-minimal-langpack
+helix
 htop
 iproute
 iputils
@@ -44,6 +45,7 @@ postgresql-contrib
 postgresql-server
 re2c
 readline-devel
+ripgrep
 rootfiles
 rpm
 rsync
