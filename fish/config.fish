@@ -32,7 +32,7 @@ zoxide init fish | source
 
 #Alias
 alias cat "bat"
-alias ls  "exa"
+alias ls  "exa --icons"
 alias top "htop"
 alias vi  "nvim"
 #Custom scripts
