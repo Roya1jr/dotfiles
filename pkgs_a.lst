@@ -33,6 +33,7 @@ man-pages
 mariadb
 mlocate
 oniguruma-devel
+openssl
 openssl-devel
 passwd
 perl
