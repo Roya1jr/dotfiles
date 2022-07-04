@@ -22,6 +22,7 @@ glibc-minimal-langpack
 htop
 iproute
 iputils
+jq
 libcurl-devel
 libffi-devel
 libpq-devel
