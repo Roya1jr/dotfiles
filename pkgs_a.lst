@@ -20,6 +20,8 @@ gd-devel
 glibc-langpack-en
 glibc-locale-source
 glibc-minimal-langpack
+gnome-control-center
+gnome-tweaks
 htop
 iproute
 iputils
