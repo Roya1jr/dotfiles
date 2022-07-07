@@ -31,9 +31,7 @@ starship init fish | source
 zoxide init fish | source
 
 #WSL
-
-set -g -x BROWSER /usr/bin/wslview
-set -g -x DISPLAY 0
+set -g -x GTK_THEME Adwaita:dark
 
 #Alias
 alias cat "bat"
