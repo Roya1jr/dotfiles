@@ -6,6 +6,7 @@ buildah
 bzip2
 bzip2-devel
 ccache
+code
 coreutils
 cracklib-dicts
 dnf
@@ -19,6 +20,7 @@ gd-devel
 glibc-langpack-en
 glibc-locale-source
 glibc-minimal-langpack
+gnome-tweaks
 htop
 iproute
 iputils

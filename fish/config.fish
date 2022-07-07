@@ -35,6 +35,7 @@ alias cat "bat"
 alias ls  "exa --icons"
 alias top "htop"
 alias vi  "nvim"
+alias code "DONT_PROMPT_WSL_INSTALL=1 code"
 #Custom scripts
 ~/dotfiles/sync_git.sh
 
