@@ -64,5 +64,6 @@ util-linux-user
 vim-minimal
 wget
 which
+wslu
 yum
 zoxide
