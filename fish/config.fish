@@ -30,6 +30,11 @@ starship init fish | source
 #Zoxide
 zoxide init fish | source
 
+#WSL
+
+set -g -x BROWSER /usr/bin/wslview
+set -g -x DISPLAY 0
+
 #Alias
 alias cat "bat"
 alias ls  "exa --icons"
