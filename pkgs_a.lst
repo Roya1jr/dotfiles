@@ -9,6 +9,7 @@ ccache
 code
 coreutils
 cracklib-dicts
+dbus-x11
 dnf
 dnf-plugins-core
 exa
