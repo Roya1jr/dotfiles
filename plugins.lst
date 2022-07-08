@@ -4,6 +4,8 @@ boundary
 consul
 dotnet
 golang
+helm
+helmsman
 java
 julia
 kotlin
