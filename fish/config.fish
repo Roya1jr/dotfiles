@@ -24,6 +24,9 @@ source ~/.asdf/asdf.fish
 #Starship
 starship init fish | source
 
+#Bun
+set -g -x PATH "$PATH:$HOME/.asdf/shims/bun"
+
 #Java
 . ~/.asdf/plugins/java/set-java-home.fish
 
