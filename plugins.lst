@@ -1,6 +1,7 @@
 awscli
 awsebcli
 boundary
+bun
 consul
 dotnet
 golang
