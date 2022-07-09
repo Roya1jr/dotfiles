@@ -36,12 +36,17 @@ zoxide init fish | source
 #WSL
 set -g -x GTK_THEME Adwaita:dark
 
+#Doom
+
+
 #Alias
 alias cat "bat"
 alias ls  "exa --icons"
 alias top "htop"
 alias vi  "nvim"
 alias code "DONT_PROMPT_WSL_INSTALL=1 /usr/bin/code"
+alias doom "$HOME/.emacs.d/bin/doom"
+
 #Custom scripts
 ~/dotfiles/sync_git.sh
 

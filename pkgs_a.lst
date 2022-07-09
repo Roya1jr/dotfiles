@@ -7,12 +7,12 @@ bzip2
 bzip2-devel
 ccache
 code
-codium
 coreutils
 cracklib-dicts
 dbus-x11
 dnf
 dnf-plugins-core
+emacs
 exa
 fedora-release-container
 fedora-repos-modular
