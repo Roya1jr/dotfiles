@@ -36,6 +36,8 @@ zoxide init fish | source
 #WSL
 set -g -x GTK_THEME Adwaita:dark
 
+set -g -x BROWSER wslview
+
 #Doom
 
 
