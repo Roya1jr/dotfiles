@@ -19,7 +19,7 @@ set -g -x PATH "$PATH:$HOME/j903/bin"
 set -g -x PATH "$PATH:$HOME/.asdf/installs/rust/1.61.0/bin"
 
 #HomeBrew
-set -g -x PATH "$PATH:$HOME/linuxbrew/.linuxbrew/bin"
+set -g -x PATH "$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 #ASDF
 source ~/.asdf/asdf.fish
