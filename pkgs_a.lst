@@ -32,6 +32,7 @@ libtool
 libyaml-devel
 mesa-dri-drivers
 mesa-libGL
+nushell
 openssl
 openssl-devel
 php
