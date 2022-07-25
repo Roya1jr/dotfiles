@@ -1,5 +1,8 @@
 require "utils"
 require("plugins").setup()
+vim.diagnostic.config({
+virtual_text = false,
+})
 vim.cmd [[
 
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
